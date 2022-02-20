@@ -1,0 +1,1202 @@
+﻿Log file open, 01/29/22 14:12:47
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: AssignmentGameDev
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.265716
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-15973114
+LogInit: Engine Version: 4.26.2-15973114+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 1709) (), CPU: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz, GPU: NVIDIA GeForce GTX 1060 3GB
+LogInit: Compiled (64-bit): Apr 12 2021 06:14:10
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line:  -EpicPortal -epicusername=GHotos -epicuserid=7240827734604863a9d183ffd28f8e62 -epiclocale=ru -epicsandboxid=ue
+LogInit: Base Directory: D:/UE_4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Games/AssignmentGameDev/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Games/AssignmentGameDev/Saved/Config/Windows/Engine.ini]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Games/AssignmentGameDev/Saved/Config/Windows/Engine.ini]
+[2022.01.29-12.12.48:234][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Games/AssignmentGameDev/Saved/Config/Windows/Engine.ini]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Games/AssignmentGameDev/Saved/Config/Windows/Engine.ini]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2022.01.29-12.12.48:234][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Games/AssignmentGameDev/Saved/Config/Windows/Engine.ini]
+[2022.01.29-12.12.48:234][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Games/AssignmentGameDev/Saved/Config/Windows/Engine.ini]
+[2022.01.29-12.12.48:255][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Games/AssignmentGameDev/Saved/Config/Windows/Scalability.ini]
+[2022.01.29-12.12.48:255][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.01.29-12.12.48:255][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.01.29-12.12.48:255][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Games/AssignmentGameDev/Saved/Config/Windows/Scalability.ini]
+[2022.01.29-12.12.48:255][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.01.29-12.12.48:255][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Games/AssignmentGameDev/Saved/Config/Windows/Scalability.ini]
+[2022.01.29-12.12.48:255][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.01.29-12.12.48:255][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.01.29-12.12.48:255][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.01.29-12.12.48:255][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.01.29-12.12.48:255][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.01.29-12.12.48:255][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.01.29-12.12.48:255][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.01.29-12.12.48:255][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.01.29-12.12.48:255][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.01.29-12.12.48:255][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.01.29-12.12.48:255][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.01.29-12.12.48:255][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Games/AssignmentGameDev/Saved/Config/Windows/Scalability.ini]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Games/AssignmentGameDev/Saved/Config/Windows/Scalability.ini]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Games/AssignmentGameDev/Saved/Config/Windows/Scalability.ini]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Games/AssignmentGameDev/Saved/Config/Windows/Scalability.ini]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Games/AssignmentGameDev/Saved/Config/Windows/Scalability.ini]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.01.29-12.12.48:256][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.01.29-12.12.48:256][  0]LogInit: Selected Device Profile: [Windows]
+[2022.01.29-12.12.48:256][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.01.29-12.12.48:257][  0]LogHAL: Display: Platform has ~ 16 GB [17119334400 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.01.29-12.12.48:257][  0]LogInit: Going up to parent DeviceProfile []
+[2022.01.29-12.12.48:257][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Games/AssignmentGameDev/Saved/Config/Windows/Scalability.ini]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Games/AssignmentGameDev/Saved/Config/Windows/Scalability.ini]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Games/AssignmentGameDev/Saved/Config/Windows/Scalability.ini]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Games/AssignmentGameDev/Saved/Config/Windows/Scalability.ini]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Games/AssignmentGameDev/Saved/Config/Windows/Scalability.ini]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Games/AssignmentGameDev/Saved/Config/Windows/Scalability.ini]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.01.29-12.12.48:257][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.01.29-12.12.48:258][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.01.29-12.12.48:258][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.01.29-12.12.48:258][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.01.29-12.12.48:258][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.01.29-12.12.48:258][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.01.29-12.12.48:258][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.01.29-12.12.48:258][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.01.29-12.12.48:258][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.01.29-12.12.48:258][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.01.29-12.12.48:258][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Games/AssignmentGameDev/Saved/Config/Windows/Scalability.ini]
+[2022.01.29-12.12.48:258][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.01.29-12.12.48:258][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.01.29-12.12.48:258][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Games/AssignmentGameDev/Saved/Config/Windows/Scalability.ini]
+[2022.01.29-12.12.48:258][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.01.29-12.12.48:258][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.01.29-12.12.48:258][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.01.29-12.12.48:258][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.01.29-12.12.48:258][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.01.29-12.12.48:258][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.01.29-12.12.48:258][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.01.29-12.12.48:258][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Games/AssignmentGameDev/Saved/Config/Windows/Engine.ini]
+[2022.01.29-12.12.48:258][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Games/AssignmentGameDev/Saved/Config/Windows/Editor.ini]
+[2022.01.29-12.12.48:258][  0]LogInit: Computer: DESKTOP-90H2PTH
+[2022.01.29-12.12.48:258][  0]LogInit: User: Pavel
+[2022.01.29-12.12.48:258][  0]LogInit: CPU Page size=4096, Cores=6
+[2022.01.29-12.12.48:258][  0]LogInit: High frequency timer resolution =2.742186 MHz
+[2022.01.29-12.12.48:258][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2022.01.29-12.12.48:258][  0]LogMemory: Platform Memory Stats for Windows
+[2022.01.29-12.12.48:258][  0]LogMemory: Process Physical Memory: 132.21 MB used, 132.21 MB peak
+[2022.01.29-12.12.48:258][  0]LogMemory: Process Virtual Memory: 108.41 MB used, 108.41 MB peak
+[2022.01.29-12.12.48:258][  0]LogMemory: Physical Memory: 8618.00 MB used,  7708.27 MB free, 16326.27 MB total
+[2022.01.29-12.12.48:258][  0]LogMemory: Virtual Memory: 134200968.00 MB used,  16763.05 MB free, 134217728.00 MB total
+[2022.01.29-12.12.48:263][  0]LogWindows: WindowsPlatformFeatures enabled
+[2022.01.29-12.12.48:299][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.01.29-12.12.48:300][  0]LogInit: Using OS detected language (ru-RU).
+[2022.01.29-12.12.48:300][  0]LogInit: Using OS detected locale (en-HK).
+[2022.01.29-12.12.48:302][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2022.01.29-12.12.48:303][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/ru/Editor.locres' could not be opened for reading!
+[2022.01.29-12.12.48:303][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/ru/EditorTutorials.locres' could not be opened for reading!
+[2022.01.29-12.12.48:303][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/ru/Keywords.locres' could not be opened for reading!
+[2022.01.29-12.12.48:303][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/ru/Category.locres' could not be opened for reading!
+[2022.01.29-12.12.48:303][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/ru/ToolTips.locres' could not be opened for reading!
+[2022.01.29-12.12.48:303][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/ru/PropertyNames.locres' could not be opened for reading!
+[2022.01.29-12.12.48:303][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/ru/Engine.locres' could not be opened for reading!
+[2022.01.29-12.12.48:304][  0]LogInit: Setting process to per monitor DPI aware
+[2022.01.29-12.12.48:312][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.01.29-12.12.48:326][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2022.01.29-12.12.48:326][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2022.01.29-12.12.48:440][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.01.29-12.12.48:440][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2022.01.29-12.12.48:440][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2022.01.29-12.12.48:440][  0]LogD3D11RHI: D3D11 adapters:
+[2022.01.29-12.12.48:506][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2022.01.29-12.12.48:506][  0]LogD3D11RHI:       2988/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2022.01.29-12.12.48:508][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2022.01.29-12.12.48:508][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2022.01.29-12.12.48:508][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2022.01.29-12.12.48:513][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2022.01.29-12.12.48:513][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2022.01.29-12.12.48:513][  0]LogWindows: EnumDisplayDevices:
+[2022.01.29-12.12.48:513][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2022.01.29-12.12.48:513][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:1)
+[2022.01.29-12.12.48:514][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2022.01.29-12.12.48:514][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2022.01.29-12.12.48:514][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2022.01.29-12.12.48:514][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2022.01.29-12.12.48:514][  0]LogD3D11RHI:   Driver Version: 472.12 (internal:30.0.14.7212, unified:472.12)
+[2022.01.29-12.12.48:514][  0]LogD3D11RHI:      Driver Date: 9-13-2021
+[2022.01.29-12.12.48:514][  0]LogRHI: Texture pool is 2091 MB (70% of 2988 MB)
+[2022.01.29-12.12.48:583][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2022.01.29-12.12.48:583][  0]LogD3D11RHI: Async texture creation enabled
+[2022.01.29-12.12.48:583][  0]LogD3D11RHI: Array index from any shader is supported
+[2022.01.29-12.12.48:603][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2022.01.29-12.12.48:604][  0]LogRHI: GeForceNow SDK initialized: 1
+[2022.01.29-12.12.48:853][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2022.01.29-12.12.48:871][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2022.01.29-12.12.48:871][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2022.01.29-12.12.48:871][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2022.01.29-12.12.48:871][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2022.01.29-12.12.48:871][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2022.01.29-12.12.48:871][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2022.01.29-12.12.48:871][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2022.01.29-12.12.48:871][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2022.01.29-12.12.48:871][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2022.01.29-12.12.48:871][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2022.01.29-12.12.48:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2022.01.29-12.12.48:889][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2022.01.29-12.12.48:897][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2022.01.29-12.12.48:904][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2022.01.29-12.12.48:911][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2022.01.29-12.12.48:918][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2022.01.29-12.12.48:925][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2022.01.29-12.12.48:931][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2022.01.29-12.12.48:938][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2022.01.29-12.12.48:958][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2022.01.29-12.12.48:958][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2022.01.29-12.12.48:965][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2022.01.29-12.12.48:971][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2022.01.29-12.12.48:978][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2022.01.29-12.12.48:985][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2022.01.29-12.12.48:996][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2022.01.29-12.12.48:996][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2022.01.29-12.12.49:003][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2022.01.29-12.12.49:011][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2022.01.29-12.12.49:017][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2022.01.29-12.12.49:024][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2022.01.29-12.12.49:024][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2022.01.29-12.12.49:030][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2022.01.29-12.12.49:079][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2022.01.29-12.12.49:079][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../Games/AssignmentGameDev/Intermediate/Shaders/WorkingDirectory/4592/).
+[2022.01.29-12.12.49:080][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'D:/Temp/UnrealShaderWorkingDir/95D936104265D625481555B643DE214C/'.
+[2022.01.29-12.12.49:080][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2022.01.29-12.12.49:080][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2022.01.29-12.12.49:784][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2022.01.29-12.12.49:828][  0]LogDerivedDataCache: Loaded boot cache 0.04s 77MB C:/Users/Pavel/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2022.01.29-12.12.49:828][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Pavel/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2022.01.29-12.12.49:828][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Games/AssignmentGameDev/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.01.29-12.12.49:828][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.01.29-12.12.49:828][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Games/AssignmentGameDev/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.01.29-12.12.49:828][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.01.29-12.12.49:839][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.01.29-12.12.49:840][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.01.29-12.12.49:840][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2022.01.29-12.12.49:844][  0]LogDerivedDataCache: Speed tests for C:/Users/Pavel/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.00 seconds
+[2022.01.29-12.12.49:844][  0]LogDerivedDataCache: Display: Performance to C:/Users/Pavel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.02ms. RandomReadSpeed=1262.69MBs, RandomWriteSpeed=262.98MBs. Assigned SpeedClass 'Local'
+[2022.01.29-12.12.49:845][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Pavel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.01.29-12.12.49:845][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2022.01.29-12.12.49:845][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2022.01.29-12.12.49:888][  0]LogSlate: Using FreeType 2.10.0
+[2022.01.29-12.12.49:888][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2022.01.29-12.12.49:910][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
+[2022.01.29-12.12.50:110][  0]LogInit: Selected Device Profile: [Windows]
+[2022.01.29-12.12.50:110][  0]LogInit: Active device profile: [0000027C6A196F00][0000027C61220580 49] Windows
+[2022.01.29-12.12.50:110][  0]LogInit: Profiles: [0000027C6A196F00][0000027C61220580 49] Windows, [0000027C6A14D300][0000027C6AA30700 49] WindowsNoEditor, [0000027C6A195300][0000027C6AA34880 49] WindowsServer, [0000027C6A14EA00][0000027C6AA38A00 49] WindowsClient, [0000027C6A196900][0000027C6AA3CB80 49] IOS, [0000027C6A14FF00][0000027C6AA40D00 49] iPadAir, [0000027C6A197E00][0000027C6AA44E80 49] iPadAir2, [0000027C6A0B0700][0000027C6AA4D140 49] IPadPro, [0000027C6A0B0800][0000027C6AA49180 49] iPadAir3, [0000027C6A197000][0000027C6AA51300 49] iPadAir4, [0000027C6A0B2E00][0000027C6AA55480 49] iPadMini2, [0000027C6A195200][0000027C612255C0 49] iPadMini3, [0000027C6A0B2000][0000027C6AA89700 49] iPadMini4, [0000027C6A194700][0000027C6AA91840 49] iPadMini5, [0000027C6A093F00][0000027C6AA9DAC0 49] iPhone6, [0000027C6A093E00][0000027C6AA95B00 49] iPodTouch6, [0000027C6A14EB00][0000027C6AAA4100 49] iPhone7, [0000027C6A14C400][0000027C6AAA0140 49] iPodTouch7, [0000027C6A091700][0000027C6AAA82C0 49] iPhone5S, [0000027C6A14D800][0000027C6AAAC440 49] iPhone6Plus, [0000027C6A092700][0000027C6AABC5C0 49] iPhone6S, [0000027C6A14DE00][0000027C6AAC0740 49] iPhone6SPlus, [0000027C6A091B00][0000027C6AAC48C0 49] iPhone7Plus, [0000027C6A14F900][0000027C6AAC8A40 49] iPhoneSE, [0000027C6A092500][0000027C6AACCBC0 49] iPhone8, [0000027C6A14D000][0000027C6AAD0D40 49] iPhone8Plus, [0000027C6A091E00][0000027C6AAD8EC0 49] iPhoneX, [0000027C6A14CA00][0000027C6AADD040 49] iPhoneXS, [0000027C6A092200][0000027C6AAE11C0 49] iPhoneXSMax, [0000027C6A14C300][0000027C6AAE5340 49] iPhoneXR, [0000027C6A092100][0000027C6AAE94C0 49] iPhone11, [0000027C6A14C700][0000027C6AAED640 49] iPhone11Pro, [0000027C6A091A00][0000027C6AA99780 49] iPhone11ProMax, [0000027C6A14CB00][0000027C6AAF18C0 49] iPhoneSE2, [0000027C6A090800][0000027C6AAF5A00 49] iPhone12Mini, [0000027C6A14C600][0000027C6AAFDB80 49] iPhone12, [0000027C6A092300][0000027C6AB01D00 49] iPhone12Pro, [0000027C6A14D900][0000027C6AB041C0 49] iPhone12ProMax, [0000027C6A093700][0000027C6AB08340 49] iPadPro105, [0000027C6A14F300][0000027C6AB0C4C0 49] iPadPro129, [0000027C6A090B00][0000027C6AB1A640 49] iPadPro97, [0000027C6A14DC00][0000027C6AB1E7C0 49] iPadPro2_129, [0000027C6A093300][0000027C6AB26940 49] iPad5, [0000027C6A14FA00][0000027C6AB2AAC0 49] iPad6, [0000027C6A091D00][0000027C6AB3EC40 49] iPad7, [0000027C6A14F000][0000027C6AB42DC0 49] iPad8, [0000027C6A092900][0000027C6AB46F40 49] iPadPro11, [0000027C6A14C200][0000027C6AB4B0C0 49] iPadPro2_11, [0000027C6A090A00][0000027C6AB4F240 49] iPadPro3_129, [0000027C6A14F600][0000027C6AB533C0 49] iPadPro4_129, [0000027C6A091600][0000027C6AB57540 49] AppleTV, [0000027C6A14FC00][0000027C6AB5B6C0 49] AppleTV4K, [0000027C6A093B00][0000027C6AAF9800 49] TVOS, [0000027C6A14E700][0000027C6AB69940 49] Mac, [0000027C6A092F00][0000027C6AB6DA80 49] MacClient, [0000027C6A14DD00][0000027C6AB7DC00 49] MacNoEditor, [0000027C6A195600][0000027C6AB880C0 49] MacServer, [0000027C6A220400][0000027C6AB94240 49] Linux, [0000027C6A195100][0000027C6ABA03C0 49] LinuxAArch64, [0000027C6A14F100][0000027C6ABA4540 49] LinuxNoEditor, [0000027C6A195C00][0000027C6ABA86C0 49] LinuxAArch64NoEditor, [0000027C6A14D200][0000027C6ABAC840 49] LinuxClient, [0000027C6A197300][0000027C6ABB09C0 49] LinuxAArch64Client, [0000027C6A14E500][0000027C6ABB4B40 49] LinuxServer, [0000027C6A197A00][0000027C6ABB8CC0 49] LinuxAArch64Server, [0000027C6A14C100][0000027C6ABBCE40 49] Android, [0000027C6A197400][0000027C6ABC0FC0 49] Android_Low, [0000027C6A14F500][0000027C6ABC5140 49] Android_Mid, [0000027C6A196100][0000027C6ABC92C0 49] Android_High, [0000027C6A14F400][0000027C6ABCD440 49] Android_Default, [0000027C6A194500][0000027C6ABD15C0 49] Android_Adreno4xx, [0000027C6A14E300][0000027C6ABD5740 49] Android_Adreno5xx_Low, [0000027C6A194800][0000027C6AB79880 49] Android_Adreno5xx, [0000027C6A14E100][0000027C6ABD99C0 49] Android_Adreno6xx, [0000027C6A195800][0000027C6ABDDB00 49] Android_Adreno6xx_Vulkan, [0000027C6A14DB00][0000027C6ABE1C40 49] Android_Mali_T6xx, [0000027C6A197700][0000027C6ABE8100 49] Android_Mali_T7xx, [0000027C6A14D600][0000027C6ABEC280 49] Android_Mali_T8xx, [0000027C6A194100][0000027C6ABF0400 49] Android_Mali_G71, [0000027C6A14D700][0000027C6ABF4580 49] Android_Mali_G72, [0000027C6A195900][0000027C6ABF8700 49] Android_Mali_G72_Vulkan, [0000027C6A14FB00][0000027C6ABFC880 49] Android_Mali_G76, [0000027C6A194600][0000027C6AC00A00 49] Android_Mali_G76_Vulkan, [0000027C6A14FE00][0000027C6AC04B80 49] Android_Mali_G77, [0000027C6A196000][0000027C6AC08D00 49] Android_Mali_G77_Vulkan, [0000027C6A14E000][0000027C6AC0CE80 49] Android_Vulkan_SM5, [0000027C6A194B00][0000027C6AC11000 49] Android_PowerVR_G6xxx, [0000027C6A14D100][0000027C6AC15180 49] Android_PowerVR_GT7xxx, [0000027C6A194400][0000027C6AC19300 49] Android_PowerVR_GE8xxx, [0000027C6A14E200][0000027C6AC1D480 49] Android_PowerVR_GM9xxx, [0000027C6A197500][0000027C5E03D600 49] Android_PowerVR_GM9xxx_Vulkan, [0000027C6A14F700][0000027C5E041780 49] Android_TegraK1, [0000027C6A195400][0000027C6ABE58C0 49] Android_Unknown_Vulkan, [0000027C6A14CD00][0000027C5E045A00 49] Lumin, [0000027C6A0B2C00][0000027C5E049B40 49] Lumin_Desktop, [0000027C6A093000][0000027C5E04DC80 49] HoloLens, 
+[2022.01.29-12.12.50:207][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2022.01.29-12.12.50:207][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2022.01.29-12.12.50:207][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2022.01.29-12.12.50:207][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2022.01.29-12.12.50:207][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2022.01.29-12.12.50:223][  0]LogNetVersion: AssignmentGameDev 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 3010701026)
+[2022.01.29-12.12.50:571][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2022.01.29-12.12.50:677][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.105164 seconds
+[2022.01.29-12.12.50:682][  0]LogUObjectArray: 16831 objects as part of root set at end of initial load.
+[2022.01.29-12.12.50:682][  0]LogUObjectAllocator: 4209728 out of 0 bytes used by permanent object pool.
+[2022.01.29-12.12.50:682][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2022.01.29-12.12.50:995][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2022.01.29-12.12.50:999][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.01.29-12.12.51:095][  0]SourceControl: Source control is disabled
+[2022.01.29-12.12.51:096][  0]SourceControl: Source control is disabled
+[2022.01.29-12.12.51:099][  0]SourceControl: Source control is disabled
+[2022.01.29-12.12.51:101][  0]SourceControl: Source control is disabled
+[2022.01.29-12.12.51:110][  0]SourceControl: Source control is disabled
+[2022.01.29-12.12.51:115][  0]LogUProjectInfo: Found projects:
+[2022.01.29-12.12.51:304][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.01.29-12.12.51:321][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.01.29-12.12.51:321][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.01.29-12.12.51:365][  0]LogCollectionManager: Loaded 0 collections in 0.000660 seconds
+[2022.01.29-12.12.51:385][  0]LogFileCache: Scanning file cache for directory 'D:/Games/AssignmentGameDev/Saved/Collections/' took 0.00s
+[2022.01.29-12.12.51:385][  0]LogFileCache: Scanning file cache for directory 'D:/Games/AssignmentGameDev/Content/Developers/Pavel/Collections/' took 0.00s
+[2022.01.29-12.12.51:385][  0]LogFileCache: Scanning file cache for directory 'D:/Games/AssignmentGameDev/Content/Collections/' took 0.00s
+[2022.01.29-12.12.51:385][  0]LogOcInput: OculusInput pre-init called
+[2022.01.29-12.12.51:394][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2022.01.29-12.12.51:394][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2022.01.29-12.12.51:450][  0]LogEngine: Initializing Engine...
+[2022.01.29-12.12.51:451][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2022.01.29-12.12.51:451][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2022.01.29-12.12.51:452][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.01.29-12.12.51:551][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.01.29-12.12.51:557][  0]LogAIModule: Creating AISystem for world Untitled
+[2022.01.29-12.12.51:565][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2022.01.29-12.12.51:568][  0]LogAudio: Display: Audio Device Manager Initialized
+[2022.01.29-12.12.51:568][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2022.01.29-12.12.51:568][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.01.29-12.12.51:568][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.01.29-12.12.51:568][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.01.29-12.12.51:568][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.01.29-12.12.51:568][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.01.29-12.12.51:568][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.01.29-12.12.51:568][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.01.29-12.12.51:568][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.01.29-12.12.51:569][  0]LogAudio: Display: Using built-in audio occlusion.
+[2022.01.29-12.12.51:569][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2022.01.29-12.12.51:580][  0]LogAudioMixer: Display: 0: FrontLeft
+[2022.01.29-12.12.51:580][  0]LogAudioMixer: Display: 1: FrontRight
+[2022.01.29-12.12.51:601][  0]LogAudioMixer: Display: Using Audio Device Наушники гарнитуры (HyperX Virtual Surround Sound)
+[2022.01.29-12.12.51:606][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.01.29-12.12.51:608][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.01.29-12.12.51:608][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.01.29-12.12.51:609][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.01.29-12.12.51:609][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.01.29-12.12.51:609][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.01.29-12.12.51:609][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.01.29-12.12.51:609][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.01.29-12.12.51:609][  0]LogInit: FAudioDevice initialized.
+[2022.01.29-12.12.51:610][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2022.01.29-12.12.51:610][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.01.29-12.12.51:736][  0]LogDerivedDataCache: Saved boot cache 0.13s 77MB C:/Users/Pavel/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2022.01.29-12.12.51:736][  0]LogInit: Texture streaming: Enabled
+[2022.01.29-12.12.51:747][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
+[2022.01.29-12.12.51:749][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2022.01.29-12.12.51:749][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2022.01.29-12.12.51:751][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2022.01.29-12.12.51:933][  0]LogInit: Transaction tracking system initialized
+[2022.01.29-12.12.51:950][  0]BlueprintLog: New page: Editor Load
+[2022.01.29-12.12.52:007][  0]LocalizationService: Localization service is disabled
+[2022.01.29-12.12.52:029][  0]TimingProfiler: Initialize
+[2022.01.29-12.12.52:029][  0]TimingProfiler: OnSessionChanged
+[2022.01.29-12.12.52:029][  0]LoadingProfiler: Initialize
+[2022.01.29-12.12.52:029][  0]LoadingProfiler: OnSessionChanged
+[2022.01.29-12.12.52:029][  0]NetworkingProfiler: Initialize
+[2022.01.29-12.12.52:029][  0]NetworkingProfiler: OnSessionChanged
+[2022.01.29-12.12.52:029][  0]MemoryProfiler: Initialize
+[2022.01.29-12.12.52:029][  0]MemoryProfiler: OnSessionChanged
+[2022.01.29-12.12.52:136][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2022.01.29-12.12.52:136][  0]LogCook: Display: Mobile HDR setting 1
+[2022.01.29-12.12.52:252][  0]LogFileCache: Scanning file cache for directory 'D:/Games/AssignmentGameDev/Content/' took 0.00s
+[2022.01.29-12.12.52:390][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.01.29-12.12.52:393][  0]SourceControl: Source control is disabled
+[2022.01.29-12.12.52:393][  0]LogUnrealEdMisc: Loading editor; pre map load, took 5.334
+[2022.01.29-12.12.52:393][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.01.29-12.12.52:393][  0]LightingResults: New page: Lighting Build
+[2022.01.29-12.12.52:394][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.01.29-12.12.52:394][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.29-12.12.52:394][  0]MapCheck: New page: Map Check
+[2022.01.29-12.12.52:394][  0]LightingResults: New page: Lighting Build
+[2022.01.29-12.12.52:400][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2022.01.29-12.12.52:453][  0]LogTexture: Display: Building textures: DeprecatedTextureEB9CBE3C423008B5E8E130901E171C89 (BGRA8, 128X128)
+[2022.01.29-12.12.52:455][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2022.01.29-12.12.52:457][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2022.01.29-12.12.52:460][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.01.29-12.12.52:466][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.01.29-12.12.52:466][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.01.29-12.12.52:467][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.097ms to complete.
+[2022.01.29-12.12.52:467][  0]LogFileHelpers: Loading map 'Template_Default' took 0.074
+[2022.01.29-12.12.52:468][  0]LogUnrealEdMisc: Total Editor Startup Time, took 5.410
+[2022.01.29-12.12.52:525][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.01.29-12.12.52:526][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2022.01.29-12.12.52:580][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.29-12.12.52:586][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.29-12.12.52:591][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.29-12.12.52:597][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.01.29-12.12.52:609][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0082 seconds. Added 3602 classes and 861 folders.
+[2022.01.29-12.12.52:612][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2022.01.29-12.12.52:613][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.01.29-12.12.52:613][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:613][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.01.29-12.12.52:613][  0]LogPakFile: OnPakFileMounted2Time == 0.000006
+[2022.01.29-12.12.52:614][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2022.01.29-12.12.52:614][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:614][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2022.01.29-12.12.52:614][  0]LogPakFile: OnPakFileMounted2Time == 0.000007
+[2022.01.29-12.12.52:614][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2022.01.29-12.12.52:614][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:614][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2022.01.29-12.12.52:614][  0]LogPakFile: OnPakFileMounted2Time == 0.000008
+[2022.01.29-12.12.52:614][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.01.29-12.12.52:614][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:614][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.01.29-12.12.52:614][  0]LogPakFile: OnPakFileMounted2Time == 0.000009
+[2022.01.29-12.12.52:615][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2022.01.29-12.12.52:615][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:615][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2022.01.29-12.12.52:615][  0]LogPakFile: OnPakFileMounted2Time == 0.000011
+[2022.01.29-12.12.52:615][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2022.01.29-12.12.52:615][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:615][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2022.01.29-12.12.52:615][  0]LogPakFile: OnPakFileMounted2Time == 0.000012
+[2022.01.29-12.12.52:616][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2022.01.29-12.12.52:616][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:616][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2022.01.29-12.12.52:616][  0]LogPakFile: OnPakFileMounted2Time == 0.000013
+[2022.01.29-12.12.52:616][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2022.01.29-12.12.52:616][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:616][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2022.01.29-12.12.52:616][  0]LogPakFile: OnPakFileMounted2Time == 0.000013
+[2022.01.29-12.12.52:616][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.01.29-12.12.52:616][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:617][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.01.29-12.12.52:617][  0]LogPakFile: OnPakFileMounted2Time == 0.000015
+[2022.01.29-12.12.52:617][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2022.01.29-12.12.52:617][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:617][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2022.01.29-12.12.52:617][  0]LogPakFile: OnPakFileMounted2Time == 0.000016
+[2022.01.29-12.12.52:617][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2022.01.29-12.12.52:617][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:617][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2022.01.29-12.12.52:617][  0]LogPakFile: OnPakFileMounted2Time == 0.000017
+[2022.01.29-12.12.52:618][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.01.29-12.12.52:618][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:618][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.01.29-12.12.52:618][  0]LogPakFile: OnPakFileMounted2Time == 0.000018
+[2022.01.29-12.12.52:618][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.01.29-12.12.52:618][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:618][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.01.29-12.12.52:618][  0]LogPakFile: OnPakFileMounted2Time == 0.000019
+[2022.01.29-12.12.52:619][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.01.29-12.12.52:619][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:619][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.01.29-12.12.52:619][  0]LogPakFile: OnPakFileMounted2Time == 0.000020
+[2022.01.29-12.12.52:619][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2022.01.29-12.12.52:619][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:619][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2022.01.29-12.12.52:619][  0]LogPakFile: OnPakFileMounted2Time == 0.000021
+[2022.01.29-12.12.52:619][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.01.29-12.12.52:619][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:619][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.01.29-12.12.52:619][  0]LogPakFile: OnPakFileMounted2Time == 0.000022
+[2022.01.29-12.12.52:620][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2022.01.29-12.12.52:620][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:620][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2022.01.29-12.12.52:620][  0]LogPakFile: OnPakFileMounted2Time == 0.000023
+[2022.01.29-12.12.52:620][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.01.29-12.12.52:620][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:620][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.01.29-12.12.52:620][  0]LogPakFile: OnPakFileMounted2Time == 0.000024
+[2022.01.29-12.12.52:621][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.01.29-12.12.52:621][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:621][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.01.29-12.12.52:621][  0]LogPakFile: OnPakFileMounted2Time == 0.000027
+[2022.01.29-12.12.52:621][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.01.29-12.12.52:621][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:621][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.01.29-12.12.52:621][  0]LogPakFile: OnPakFileMounted2Time == 0.000028
+[2022.01.29-12.12.52:622][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2022.01.29-12.12.52:622][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:622][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2022.01.29-12.12.52:622][  0]LogPakFile: OnPakFileMounted2Time == 0.000029
+[2022.01.29-12.12.52:622][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2022.01.29-12.12.52:622][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:622][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2022.01.29-12.12.52:622][  0]LogPakFile: OnPakFileMounted2Time == 0.000030
+[2022.01.29-12.12.52:623][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2022.01.29-12.12.52:623][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:623][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2022.01.29-12.12.52:623][  0]LogPakFile: OnPakFileMounted2Time == 0.000031
+[2022.01.29-12.12.52:623][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2022.01.29-12.12.52:623][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:623][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2022.01.29-12.12.52:623][  0]LogPakFile: OnPakFileMounted2Time == 0.000034
+[2022.01.29-12.12.52:624][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2022.01.29-12.12.52:624][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:624][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2022.01.29-12.12.52:624][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
+[2022.01.29-12.12.52:624][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2022.01.29-12.12.52:624][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2022.01.29-12.12.52:624][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2022.01.29-12.12.52:624][  0]LogPakFile: OnPakFileMounted2Time == 0.000036
+[2022.01.29-12.12.52:662][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2022.01.29-12.12.52:666][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2022.01.29-12.12.52:705][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2022.01.29-12.12.52:707][  0]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2022.01.29-12.12.52:710][  0]LogSlate: Took 0.000101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2022.01.29-12.12.52:799][  0]LogRenderer: Reallocating scene render targets to support 1092x572 Format 10 NumSamples 1 (Frame:1).
+[2022.01.29-12.12.52:879][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2022.01.29-12.12.52:879][  0]LogLoad: (Engine Initialization) Total time: 5.82 seconds
+[2022.01.29-12.12.52:879][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2022.01.29-12.12.52:879][  0]LogInit: First time updating LLM stats...
+[2022.01.29-12.12.52:909][  0]LogAssetRegistry: Asset discovery search completed in 3.0000 seconds
+[2022.01.29-12.12.52:910][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2022.01.29-12.12.52:936][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.01.29-12.12.53:157][  2]LogSlate: Took 0.000112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.01.29-12.13.00:907][907]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.01.29-12.13.01:077][907]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2022.01.29-12.14.13:752][782]Running D:/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/Games/AssignmentGameDev/AssignmentGameDev.uproject" -game -rocket -progress
+[2022.01.29-12.14.14:182][782]Discovering modules, targets and source code for project...
+[2022.01.29-12.14.16:890][782]Binding IntelliSense data...
+[2022.01.29-12.14.25:250][782]Binding IntelliSense data... 100%
+[2022.01.29-12.14.25:250][782]Writing project files...
+[2022.01.29-12.14.35:214][782]Writing project files... 100%
+[2022.01.29-12.14.35:322][782]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2022.01.29-12.14.35:499][782]Candidate modules for hot reload:
+[2022.01.29-12.14.35:499][782]  AssignmentGameDev
+[2022.01.29-12.14.35:499][782]Launching UnrealBuildTool... [D:/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=AssignmentGameDev,6216 AssignmentGameDevEditor Win64 Development -Project="D:/Games/AssignmentGameDev/AssignmentGameDev.uproject" "D:/Games/AssignmentGameDev/AssignmentGameDev.uproject"  -IgnoreJunk]
+[2022.01.29-12.19.29:187][782]CompilerResultsLog: New page: Compilation - 29 Jan 2022, 4:19:29 pm
+[2022.01.29-12.19.29:187][782]CompilerResultsLog: Creating makefile for AssignmentGameDevEditor (no existing makefile)
+[2022.01.29-12.19.29:187][782]CompilerResultsLog: Parsing headers for AssignmentGameDevEditor
+[2022.01.29-12.19.29:187][782]CompilerResultsLog:   Running UnrealHeaderTool "D:\Games\AssignmentGameDev\AssignmentGameDev.uproject" "D:\Games\AssignmentGameDev\Intermediate\Build\Win64\AssignmentGameDevEditor\Development\AssignmentGameDevEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Pavel\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.01.29-12.19.29:187][782]CompilerResultsLog: Reflection code generated for AssignmentGameDevEditor in 43.0798647 seconds
+[2022.01.29-12.19.29:187][782]CompilerResultsLog: Building AssignmentGameDevEditor...
+[2022.01.29-12.19.29:187][782]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.01.29-12.19.29:187][782]CompilerResultsLog: Building 9 actions with 6 processes...
+[2022.01.29-12.19.29:187][782]CompilerResultsLog:   [1/9] AssignmentGameDev.cpp
+[2022.01.29-12.19.29:187][782]CompilerResultsLog:   [2/9] PlayerPawn.cpp
+[2022.01.29-12.19.29:187][782]CompilerResultsLog:   [3/9] AssignmentGameDevGameModeBase.cpp
+[2022.01.29-12.19.29:187][782]CompilerResultsLog:   [4/9] AssignmentGameDev.init.gen.cpp
+[2022.01.29-12.19.29:187][782]CompilerResultsLog:   [5/9] PlayerPawn.gen.cpp
+[2022.01.29-12.19.29:188][782]CompilerResultsLog:   [6/9] AssignmentGameDevGameModeBase.gen.cpp
+[2022.01.29-12.19.29:188][782]CompilerResultsLog:   [7/9] UE4Editor-AssignmentGameDev-6216.lib
+[2022.01.29-12.19.29:188][782]CompilerResultsLog:      Creating library D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-6216.lib and object D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-6216.exp
+[2022.01.29-12.19.29:188][782]CompilerResultsLog:   [8/9] UE4Editor-AssignmentGameDev-6216.dll
+[2022.01.29-12.19.29:188][782]CompilerResultsLog:      Creating library D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-6216.suppressed.lib and object D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-6216.suppressed.exp
+[2022.01.29-12.19.29:188][782]CompilerResultsLog:   [9/9] AssignmentGameDevEditor.target
+[2022.01.29-12.19.29:188][782]CompilerResultsLog: Total time in Parallel executor: 247.84 seconds
+[2022.01.29-12.19.29:188][782]CompilerResultsLog: Total execution time: 293.60 seconds
+[2022.01.29-12.19.29:188][782]LogMainFrame: MainFrame: Module compiling took 293.865 seconds
+[2022.01.29-12.19.29:248][782]LogClass: Could not find existing class PlayerPawn in package /Script/AssignmentGameDev for HotReload, assuming new class
+[2022.01.29-12.19.29:249][782]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AssignmentGameDev' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2022.01.29-12.19.29:250][782]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.01.29-12.19.29:679][782]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0082 seconds. Added 3603 classes and 861 folders.
+[2022.01.29-12.19.29:700][782]Display: HotReload took 294.4s.
+[2022.01.29-12.19.29:712][782]Warning: HotReload operation took 294.4s.
+[2022.01.29-12.19.29:908][782]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.01.29-12.19.29:925][782]LogHotReload: New module detected: UE4Editor-AssignmentGameDev-6216.dll
+[2022.01.29-12.19.30:046][783]LogHotReload: Starting Hot-Reload from IDE
+[2022.01.29-12.19.30:266][783]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AssignmentGameDev' in 0.0002 seconds. Added 2 classes and 2 folders.
+[2022.01.29-12.19.30:267][783]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.01.29-12.19.30:278][783]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0084 seconds. Added 3603 classes and 861 folders.
+[2022.01.29-12.19.30:281][783]Display: HotReload took  0.2s.
+[2022.01.29-12.27.43:165][  2]LogDirectoryWatcher: Display: A directory notification failed for 'D:/Games/AssignmentGameDev/Content/Collections/' because it could not be accessed. Aborting watch request...
+[2022.01.29-12.27.43:242][  2]LogDirectoryWatcher: Display: A directory notification failed for 'D:/Games/AssignmentGameDev/Content/Developers/Pavel/Collections/' because it could not be accessed. Aborting watch request...
+[2022.01.29-12.27.43:501][  3]LogDirectoryWatcher: Display: A directory notification failed for 'D:/Games/AssignmentGameDev/Saved/Collections/' because it could not be accessed. Aborting watch request...
+[2022.01.29-12.34.14:170][805]Running D:/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/Games/AssignmentGameDev/AssignmentGameDev.uproject" -game -rocket -progress
+[2022.01.29-12.34.14:481][805]Discovering modules, targets and source code for project...
+[2022.01.29-12.34.15:885][805]Binding IntelliSense data...
+[2022.01.29-12.34.17:700][805]Binding IntelliSense data... 100%
+[2022.01.29-12.34.17:700][805]Writing project files...
+[2022.01.29-12.34.20:711][805]Writing project files... 100%
+[2022.01.29-12.34.20:842][805]Candidate modules for hot reload:
+[2022.01.29-12.34.20:842][805]  AssignmentGameDev
+[2022.01.29-12.34.20:842][805]Launching UnrealBuildTool... [D:/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=AssignmentGameDev,9831 AssignmentGameDevEditor Win64 Development -Project="D:/Games/AssignmentGameDev/AssignmentGameDev.uproject" "D:/Games/AssignmentGameDev/AssignmentGameDev.uproject"  -IgnoreJunk]
+[2022.01.29-12.35.07:843][805]CompilerResultsLog: New page: Compilation - 29 Jan 2022, 4:35:07 pm
+[2022.01.29-12.35.07:843][805]CompilerResultsLog: Creating makefile for AssignmentGameDevEditor (no existing makefile)
+[2022.01.29-12.35.07:843][805]CompilerResultsLog: Parsing headers for AssignmentGameDevEditor
+[2022.01.29-12.35.07:843][805]CompilerResultsLog:   Running UnrealHeaderTool "D:\Games\AssignmentGameDev\AssignmentGameDev.uproject" "D:\Games\AssignmentGameDev\Intermediate\Build\Win64\AssignmentGameDevEditor\Development\AssignmentGameDevEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Pavel\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.01.29-12.35.07:843][805]CompilerResultsLog: Reflection code generated for AssignmentGameDevEditor in 3.556215 seconds
+[2022.01.29-12.35.07:843][805]CompilerResultsLog: Building AssignmentGameDevEditor...
+[2022.01.29-12.35.07:843][805]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.01.29-12.35.07:843][805]CompilerResultsLog: Building 8 actions with 6 processes...
+[2022.01.29-12.35.07:843][805]CompilerResultsLog:   [1/8] AssignmentGameDev.init.gen.cpp
+[2022.01.29-12.35.07:843][805]CompilerResultsLog:   [2/8] PlayerPawn.gen.cpp
+[2022.01.29-12.35.07:843][805]CompilerResultsLog:   [3/8] PlayerPawn.cpp
+[2022.01.29-12.35.07:843][805]CompilerResultsLog:    D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.cpp(34) : error C2039: 'SetMoveAmount': is not a member of 'APlayerPawn'
+[2022.01.29-12.35.07:843][805]CompilerResultsLog:   D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.h(10): note: see declaration of 'APlayerPawn'
+[2022.01.29-12.35.07:843][805]CompilerResultsLog:    D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.cpp(34) : error C2065: 'SetMoveAmount': undeclared identifier
+[2022.01.29-12.35.07:843][805]CompilerResultsLog:    D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.cpp(35) : error C2039: 'SetRotateAmount': is not a member of 'APlayerPawn'
+[2022.01.29-12.35.07:843][805]CompilerResultsLog:   D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.h(10): note: see declaration of 'APlayerPawn'
+[2022.01.29-12.35.07:843][805]CompilerResultsLog:    D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.cpp(35) : error C2065: 'SetRotateAmount': undeclared identifier
+[2022.01.29-12.35.07:843][805]CompilerResultsLog:    D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.cpp(36) : error C2039: 'SetStrafeAmount': is not a member of 'APlayerPawn'
+[2022.01.29-12.35.07:843][805]CompilerResultsLog:   D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.h(10): note: see declaration of 'APlayerPawn'
+[2022.01.29-12.35.07:843][805]CompilerResultsLog:    D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.cpp(36) : error C2065: 'SetStrafeAmount': undeclared identifier
+[2022.01.29-12.35.07:843][805]CompilerResultsLog:    D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.cpp(38) : error C2039: 'OnBeginFire': is not a member of 'APlayerPawn'
+[2022.01.29-12.35.07:843][805]CompilerResultsLog:   D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.h(10): note: see declaration of 'APlayerPawn'
+[2022.01.29-12.35.07:843][805]CompilerResultsLog:    D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.cpp(38) : error C2065: 'OnBeginFire': undeclared identifier
+[2022.01.29-12.35.07:843][805]CompilerResultsLog:    D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.cpp(39) : error C2039: 'OnEndFire': is not a member of 'APlayerPawn'
+[2022.01.29-12.35.07:843][805]CompilerResultsLog:   D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.h(10): note: see declaration of 'APlayerPawn'
+[2022.01.29-12.35.07:843][805]CompilerResultsLog:    D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.cpp(39) : error C2065: 'OnEndFire': undeclared identifier
+[2022.01.29-12.35.07:843][805]CompilerResultsLog:   [4/8] PlayerCharacter.cpp
+[2022.01.29-12.35.07:843][805]CompilerResultsLog:   [5/8] PlayerCharacter.gen.cpp
+[2022.01.29-12.35.07:843][805]LogMainFrame: MainFrame: Module compiling took 47.005 seconds
+[2022.01.29-12.35.07:879][805]Warning: HotReload failed, recompile failed
+[2022.01.29-12.35.07:879][805]Warning: RebindPackages failed because compilation failed.
+[2022.01.29-12.35.20:004][805]LogSlate: Window 'Message' being destroyed
+[2022.01.29-12.35.20:011][805]Message dialog closed, result: Yes, title: Message, text: Successfully added class 'PlayerCharacter', however you must recompile the 'AssignmentGameDev' module before it will appear in the Content Browser. Failed to automatically hot reload the 'AssignmentGameDev' module.
+
+Would you like to open the Output Log to see more details?
+[2022.01.29-12.35.20:013][805]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.01.29-12.35.20:057][805]LogSlate: Took 0.037536 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.01.29-12.35.24:799][355]Candidate modules for hot reload:
+[2022.01.29-12.35.24:799][355]  AssignmentGameDev
+[2022.01.29-12.35.24:799][355]Launching UnrealBuildTool... [D:/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=AssignmentGameDev,2546 AssignmentGameDevEditor Win64 Development -Project="D:/Games/AssignmentGameDev/AssignmentGameDev.uproject" "D:/Games/AssignmentGameDev/AssignmentGameDev.uproject"  -IgnoreJunk]
+[2022.01.29-12.35.24:839][355]Warning: Starting HotReload took  0.0s.
+[2022.01.29-12.35.26:107][466]CompilerResultsLog: New page: Compilation - 29 Jan 2022, 4:35:26 pm
+[2022.01.29-12.35.26:107][466]CompilerResultsLog: Building AssignmentGameDevEditor...
+[2022.01.29-12.35.26:107][466]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.01.29-12.35.26:107][466]CompilerResultsLog: Building 4 actions with 6 processes...
+[2022.01.29-12.35.26:107][466]CompilerResultsLog:   [1/4] PlayerPawn.cpp
+[2022.01.29-12.35.26:107][466]CompilerResultsLog:    D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.cpp(34) : error C2039: 'SetMoveAmount': is not a member of 'APlayerPawn'
+[2022.01.29-12.35.26:107][466]CompilerResultsLog:   D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.h(10): note: see declaration of 'APlayerPawn'
+[2022.01.29-12.35.26:107][466]CompilerResultsLog:    D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.cpp(34) : error C2065: 'SetMoveAmount': undeclared identifier
+[2022.01.29-12.35.26:107][466]CompilerResultsLog:    D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.cpp(35) : error C2039: 'SetRotateAmount': is not a member of 'APlayerPawn'
+[2022.01.29-12.35.26:108][466]CompilerResultsLog:   D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.h(10): note: see declaration of 'APlayerPawn'
+[2022.01.29-12.35.26:108][466]CompilerResultsLog:    D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.cpp(35) : error C2065: 'SetRotateAmount': undeclared identifier
+[2022.01.29-12.35.26:108][466]CompilerResultsLog:    D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.cpp(36) : error C2039: 'SetStrafeAmount': is not a member of 'APlayerPawn'
+[2022.01.29-12.35.26:108][466]CompilerResultsLog:   D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.h(10): note: see declaration of 'APlayerPawn'
+[2022.01.29-12.35.26:108][466]CompilerResultsLog:    D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.cpp(36) : error C2065: 'SetStrafeAmount': undeclared identifier
+[2022.01.29-12.35.26:108][466]CompilerResultsLog:    D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.cpp(38) : error C2039: 'OnBeginFire': is not a member of 'APlayerPawn'
+[2022.01.29-12.35.26:108][466]CompilerResultsLog:   D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.h(10): note: see declaration of 'APlayerPawn'
+[2022.01.29-12.35.26:108][466]CompilerResultsLog:    D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.cpp(38) : error C2065: 'OnBeginFire': undeclared identifier
+[2022.01.29-12.35.26:108][466]CompilerResultsLog:    D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.cpp(39) : error C2039: 'OnEndFire': is not a member of 'APlayerPawn'
+[2022.01.29-12.35.26:108][466]CompilerResultsLog:   D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.h(10): note: see declaration of 'APlayerPawn'
+[2022.01.29-12.35.26:108][466]CompilerResultsLog:    D:\Games\AssignmentGameDev\Source\AssignmentGameDev\PlayerPawn.cpp(39) : error C2065: 'OnEndFire': undeclared identifier
+[2022.01.29-12.35.26:108][466]LogMainFrame: MainFrame: Module compiling took 1.312 seconds
+[2022.01.29-12.35.26:108][466]Warning: HotReload failed, recompile failed
+[2022.01.29-12.35.31:387][ 85]LogSlate: Window 'Message Log' being destroyed
+[2022.01.29-12.35.31:393][ 85]LogSlate: Window 'Message Log' being destroyed
+[2022.01.29-12.36.06:563][848]Candidate modules for hot reload:
+[2022.01.29-12.36.06:563][848]  AssignmentGameDev
+[2022.01.29-12.36.06:563][848]Launching UnrealBuildTool... [D:/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=AssignmentGameDev,5164 AssignmentGameDevEditor Win64 Development -Project="D:/Games/AssignmentGameDev/AssignmentGameDev.uproject" "D:/Games/AssignmentGameDev/AssignmentGameDev.uproject"  -IgnoreJunk]
+[2022.01.29-12.36.06:571][848]Warning: Starting HotReload took  0.0s.
+[2022.01.29-12.36.09:918][203]CompilerResultsLog: New page: Compilation - 29 Jan 2022, 4:36:09 pm
+[2022.01.29-12.36.09:918][203]CompilerResultsLog: Building AssignmentGameDevEditor...
+[2022.01.29-12.36.09:918][203]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.01.29-12.36.09:918][203]CompilerResultsLog: Building 4 actions with 6 processes...
+[2022.01.29-12.36.09:918][203]CompilerResultsLog:   [1/4] PlayerPawn.cpp
+[2022.01.29-12.36.09:918][203]CompilerResultsLog:   [2/4] UE4Editor-AssignmentGameDev-5164.lib
+[2022.01.29-12.36.09:918][203]CompilerResultsLog:      Creating library D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-5164.lib and object D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-5164.exp
+[2022.01.29-12.36.09:918][203]CompilerResultsLog:   [3/4] UE4Editor-AssignmentGameDev-5164.dll
+[2022.01.29-12.36.09:918][203]CompilerResultsLog:      Creating library D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-5164.suppressed.lib and object D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-5164.suppressed.exp
+[2022.01.29-12.36.09:918][203]CompilerResultsLog:   [4/4] AssignmentGameDevEditor.target
+[2022.01.29-12.36.09:918][203]CompilerResultsLog: Total time in Parallel executor: 2.63 seconds
+[2022.01.29-12.36.09:918][203]CompilerResultsLog: Total execution time: 3.27 seconds
+[2022.01.29-12.36.09:918][203]LogMainFrame: MainFrame: Module compiling took 3.358 seconds
+[2022.01.29-12.36.09:934][203]LogClass: Could not find existing class PlayerCharacter in package /Script/AssignmentGameDev for HotReload, assuming new class
+[2022.01.29-12.36.09:934][203]LogClass: Could not find existing class PlayerPawn in package /Script/AssignmentGameDev for HotReload, assuming new class
+[2022.01.29-12.36.09:937][203]LogHotReload: Re-instancing PlayerPawn after hot-reload.
+[2022.01.29-12.36.09:984][203]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AssignmentGameDev' in 0.0004 seconds. Added 3 classes and 2 folders.
+[2022.01.29-12.36.09:986][203]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.01.29-12.36.10:020][203]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0090 seconds. Added 3604 classes and 861 folders.
+[2022.01.29-12.36.10:020][203]Display: HotReload took  3.5s.
+[2022.01.29-12.36.12:011][369]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/Games/AssignmentGameDev/Source/AssignmentGameDev/PlayerCharacter.h'
+[2022.01.29-12.36.12:136][369]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/Games/AssignmentGameDev/Source/AssignmentGameDev/PlayerCharacter.cpp'
+[2022.01.29-13.01.50:794][477]LogSlate: Window 'Source Control Login' being destroyed
+[2022.01.29-13.04.18:660][358]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2022.01.29-13.05.35:446][442]Running D:/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/Games/AssignmentGameDev/AssignmentGameDev.uproject" -game -rocket -progress
+[2022.01.29-13.05.35:762][442]Discovering modules, targets and source code for project...
+[2022.01.29-13.05.37:067][442]Binding IntelliSense data...
+[2022.01.29-13.05.38:876][442]Binding IntelliSense data... 100%
+[2022.01.29-13.05.38:876][442]Writing project files...
+[2022.01.29-13.05.42:590][442]Writing project files... 100%
+[2022.01.29-13.05.42:945][442]Candidate modules for hot reload:
+[2022.01.29-13.05.42:945][442]  AssignmentGameDev
+[2022.01.29-13.05.42:945][442]Launching UnrealBuildTool... [D:/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=AssignmentGameDev,1592 AssignmentGameDevEditor Win64 Development -Project="D:/Games/AssignmentGameDev/AssignmentGameDev.uproject" "D:/Games/AssignmentGameDev/AssignmentGameDev.uproject"  -IgnoreJunk]
+[2022.01.29-13.05.48:021][442]CompilerResultsLog: New page: Compilation - 29 Jan 2022, 5:05:48 pm
+[2022.01.29-13.05.48:021][442]CompilerResultsLog: Creating makefile for AssignmentGameDevEditor (no existing makefile)
+[2022.01.29-13.05.48:021][442]CompilerResultsLog: Parsing headers for AssignmentGameDevEditor
+[2022.01.29-13.05.48:021][442]CompilerResultsLog:   Running UnrealHeaderTool "D:\Games\AssignmentGameDev\AssignmentGameDev.uproject" "D:\Games\AssignmentGameDev\Intermediate\Build\Win64\AssignmentGameDevEditor\Development\AssignmentGameDevEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Pavel\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.01.29-13.05.48:021][442]CompilerResultsLog: Error: D:/Games/AssignmentGameDev/Source/AssignmentGameDev/PlayerCharacter.h(33)  : Error: Unexpected '}'. Did you miss a semi-colon?
+[2022.01.29-13.05.48:021][442]LogMainFrame: MainFrame: Module compiling took 5.080 seconds
+[2022.01.29-13.05.48:022][442]Warning: HotReload failed, recompile failed
+[2022.01.29-13.05.48:022][442]Warning: RebindPackages failed because compilation failed.
+[2022.01.29-13.05.55:409][442]LogSlate: Window 'Message' being destroyed
+[2022.01.29-13.05.55:417][442]Message dialog closed, result: Yes, title: Message, text: Successfully added class 'CustomMovementComponent', however you must recompile the 'AssignmentGameDev' module before it will appear in the Content Browser. Failed to automatically hot reload the 'AssignmentGameDev' module.
+
+Would you like to open the Output Log to see more details?
+[2022.01.29-13.05.55:419][442]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.01.29-13.06.35:157][378]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2022.01.29-13.06.36:878][414]Candidate modules for hot reload:
+[2022.01.29-13.06.36:878][414]  AssignmentGameDev
+[2022.01.29-13.06.36:878][414]Launching UnrealBuildTool... [D:/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=AssignmentGameDev,5928 AssignmentGameDevEditor Win64 Development -Project="D:/Games/AssignmentGameDev/AssignmentGameDev.uproject" "D:/Games/AssignmentGameDev/AssignmentGameDev.uproject"  -IgnoreJunk]
+[2022.01.29-13.06.36:886][414]Warning: Starting HotReload took  0.0s.
+[2022.01.29-13.07.17:877][281]CompilerResultsLog: New page: Compilation - 29 Jan 2022, 5:07:17 pm
+[2022.01.29-13.07.17:877][281]CompilerResultsLog: Creating makefile for AssignmentGameDevEditor (no existing makefile)
+[2022.01.29-13.07.17:877][281]CompilerResultsLog: Parsing headers for AssignmentGameDevEditor
+[2022.01.29-13.07.17:877][281]CompilerResultsLog:   Running UnrealHeaderTool "D:\Games\AssignmentGameDev\AssignmentGameDev.uproject" "D:\Games\AssignmentGameDev\Intermediate\Build\Win64\AssignmentGameDevEditor\Development\AssignmentGameDevEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Pavel\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.01.29-13.07.17:878][281]CompilerResultsLog: Reflection code generated for AssignmentGameDevEditor in 4.1345805 seconds
+[2022.01.29-13.07.17:878][281]CompilerResultsLog: Building AssignmentGameDevEditor...
+[2022.01.29-13.07.17:878][281]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.01.29-13.07.17:878][281]CompilerResultsLog: Building 10 actions with 6 processes...
+[2022.01.29-13.07.17:878][281]CompilerResultsLog:   [1/10] AssignmentGameDev.init.gen.cpp
+[2022.01.29-13.07.17:878][281]CompilerResultsLog:   [2/10] PlayerCharacter.cpp
+[2022.01.29-13.07.17:878][281]CompilerResultsLog:   [3/10] PlayerCharacter.gen.cpp
+[2022.01.29-13.07.17:878][281]CompilerResultsLog:   [4/10] CustomMovementComponent.cpp
+[2022.01.29-13.07.17:878][281]CompilerResultsLog:   [5/10] CustomMovementComponent.gen.cpp
+[2022.01.29-13.07.17:878][281]CompilerResultsLog:   [6/10] PlayerPawn.gen.cpp
+[2022.01.29-13.07.17:878][281]CompilerResultsLog:   [7/10] PlayerPawn.cpp
+[2022.01.29-13.07.17:878][281]CompilerResultsLog:   [8/10] UE4Editor-AssignmentGameDev-5928.lib
+[2022.01.29-13.07.17:878][281]CompilerResultsLog:      Creating library D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-5928.lib and object D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-5928.exp
+[2022.01.29-13.07.17:878][281]CompilerResultsLog:   [9/10] UE4Editor-AssignmentGameDev-5928.dll
+[2022.01.29-13.07.17:878][281]CompilerResultsLog:      Creating library D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-5928.suppressed.lib and object D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-5928.suppressed.exp
+[2022.01.29-13.07.17:878][281]CompilerResultsLog: Error:   PlayerPawn.cpp.obj : error LNK2019: unresolved external symbol "private: void __cdecl APlayerPawn::StrafeMov(float)" (?StrafeMov@APlayerPawn@@AEAAXM@Z) referenced in function "public: virtual void __cdecl APlayerPawn::SetupPlayerInputComponent(class UInputComponent *)" (?SetupPlayerInputComponent@APlayerPawn@@UEAAXPEAVUInputComponent@@@Z)
+[2022.01.29-13.07.17:878][281]CompilerResultsLog: Error:   PlayerPawn.gen.cpp.obj : error LNK2001: unresolved external symbol "private: void __cdecl APlayerPawn::StrafeMov(float)" (?StrafeMov@APlayerPawn@@AEAAXM@Z)
+[2022.01.29-13.07.17:878][281]CompilerResultsLog: Error:   PlayerPawn.cpp.obj : error LNK2019: unresolved external symbol "private: void __cdecl APlayerPawn::YawRot(float)" (?YawRot@APlayerPawn@@AEAAXM@Z) referenced in function "public: virtual void __cdecl APlayerPawn::SetupPlayerInputComponent(class UInputComponent *)" (?SetupPlayerInputComponent@APlayerPawn@@UEAAXPEAVUInputComponent@@@Z)
+[2022.01.29-13.07.17:878][281]CompilerResultsLog: Error:   PlayerPawn.gen.cpp.obj : error LNK2001: unresolved external symbol "private: void __cdecl APlayerPawn::YawRot(float)" (?YawRot@APlayerPawn@@AEAAXM@Z)
+[2022.01.29-13.07.17:878][281]CompilerResultsLog: Error:   PlayerPawn.cpp.obj : error LNK2019: unresolved external symbol "private: void __cdecl APlayerPawn::OnBeginFire(void)" (?OnBeginFire@APlayerPawn@@AEAAXXZ) referenced in function "public: virtual void __cdecl APlayerPawn::SetupPlayerInputComponent(class UInputComponent *)" (?SetupPlayerInputComponent@APlayerPawn@@UEAAXPEAVUInputComponent@@@Z)
+[2022.01.29-13.07.17:878][281]CompilerResultsLog: Error:   PlayerPawn.gen.cpp.obj : error LNK2001: unresolved external symbol "private: void __cdecl APlayerPawn::OnBeginFire(void)" (?OnBeginFire@APlayerPawn@@AEAAXXZ)
+[2022.01.29-13.07.17:878][281]CompilerResultsLog: Error:   PlayerPawn.cpp.obj : error LNK2019: unresolved external symbol "private: void __cdecl APlayerPawn::OnEndFire(void)" (?OnEndFire@APlayerPawn@@AEAAXXZ) referenced in function "public: virtual void __cdecl APlayerPawn::SetupPlayerInputComponent(class UInputComponent *)" (?SetupPlayerInputComponent@APlayerPawn@@UEAAXPEAVUInputComponent@@@Z)
+[2022.01.29-13.07.17:878][281]CompilerResultsLog: Error:   PlayerPawn.gen.cpp.obj : error LNK2001: unresolved external symbol "private: void __cdecl APlayerPawn::OnEndFire(void)" (?OnEndFire@APlayerPawn@@AEAAXXZ)
+[2022.01.29-13.07.17:878][281]CompilerResultsLog: Error:   D:\Games\AssignmentGameDev\Binaries\Win64\UE4Editor-AssignmentGameDev-5928.dll : fatal error LNK1120: 4 unresolved externals
+[2022.01.29-13.07.17:878][281]LogMainFrame: MainFrame: Module compiling took 41.003 seconds
+[2022.01.29-13.07.17:878][281]Warning: HotReload failed, recompile failed
+[2022.01.29-13.07.32:988][ 79]LogSlate: Window 'Message Log' being destroyed
+[2022.01.29-13.07.32:995][ 79]LogSlate: Window 'Message Log' being destroyed
+[2022.01.29-13.09.04:406][546]Candidate modules for hot reload:
+[2022.01.29-13.09.04:406][546]  AssignmentGameDev
+[2022.01.29-13.09.04:406][546]Launching UnrealBuildTool... [D:/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=AssignmentGameDev,9300 AssignmentGameDevEditor Win64 Development -Project="D:/Games/AssignmentGameDev/AssignmentGameDev.uproject" "D:/Games/AssignmentGameDev/AssignmentGameDev.uproject"  -IgnoreJunk]
+[2022.01.29-13.09.04:414][546]Warning: Starting HotReload took  0.0s.
+[2022.01.29-13.09.12:778][500]CompilerResultsLog: New page: Compilation - 29 Jan 2022, 5:09:12 pm
+[2022.01.29-13.09.12:778][500]CompilerResultsLog: Parsing headers for AssignmentGameDevEditor
+[2022.01.29-13.09.12:778][500]CompilerResultsLog:   Running UnrealHeaderTool "D:\Games\AssignmentGameDev\AssignmentGameDev.uproject" "D:\Games\AssignmentGameDev\Intermediate\Build\Win64\AssignmentGameDevEditor\Development\AssignmentGameDevEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Pavel\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.01.29-13.09.12:778][500]CompilerResultsLog: Reflection code generated for AssignmentGameDevEditor in 4.0740205 seconds
+[2022.01.29-13.09.12:778][500]CompilerResultsLog: Building AssignmentGameDevEditor...
+[2022.01.29-13.09.12:778][500]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.01.29-13.09.12:778][500]CompilerResultsLog: Building 5 actions with 6 processes...
+[2022.01.29-13.09.12:778][500]CompilerResultsLog:   [1/5] PlayerPawn.gen.cpp
+[2022.01.29-13.09.12:778][500]CompilerResultsLog:   [2/5] PlayerPawn.cpp
+[2022.01.29-13.09.12:778][500]CompilerResultsLog:   [3/5] UE4Editor-AssignmentGameDev-9300.lib
+[2022.01.29-13.09.12:778][500]CompilerResultsLog:      Creating library D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-9300.lib and object D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-9300.exp
+[2022.01.29-13.09.12:778][500]CompilerResultsLog:   [4/5] UE4Editor-AssignmentGameDev-9300.dll
+[2022.01.29-13.09.12:778][500]CompilerResultsLog:      Creating library D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-9300.suppressed.lib and object D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-9300.suppressed.exp
+[2022.01.29-13.09.12:778][500]CompilerResultsLog: Error:   PlayerPawn.cpp.obj : error LNK2019: unresolved external symbol "private: void __cdecl APlayerPawn::MovementForward(float)" (?MovementForward@APlayerPawn@@AEAAXM@Z) referenced in function "public: virtual void __cdecl APlayerPawn::SetupPlayerInputComponent(class UInputComponent *)" (?SetupPlayerInputComponent@APlayerPawn@@UEAAXPEAVUInputComponent@@@Z)
+[2022.01.29-13.09.12:778][500]CompilerResultsLog: Error:   PlayerPawn.gen.cpp.obj : error LNK2001: unresolved external symbol "private: void __cdecl APlayerPawn::MovementForward(float)" (?MovementForward@APlayerPawn@@AEAAXM@Z)
+[2022.01.29-13.09.12:778][500]CompilerResultsLog: Error:   PlayerPawn.cpp.obj : error LNK2019: unresolved external symbol "private: void __cdecl APlayerPawn::PitchRot(float)" (?PitchRot@APlayerPawn@@AEAAXM@Z) referenced in function "public: virtual void __cdecl APlayerPawn::SetupPlayerInputComponent(class UInputComponent *)" (?SetupPlayerInputComponent@APlayerPawn@@UEAAXPEAVUInputComponent@@@Z)
+[2022.01.29-13.09.12:778][500]CompilerResultsLog: Error:   PlayerPawn.gen.cpp.obj : error LNK2001: unresolved external symbol "private: void __cdecl APlayerPawn::PitchRot(float)" (?PitchRot@APlayerPawn@@AEAAXM@Z)
+[2022.01.29-13.09.12:778][500]CompilerResultsLog: Error:   PlayerPawn.cpp.obj : error LNK2019: unresolved external symbol "private: void __cdecl APlayerPawn::StrafeMov(float)" (?StrafeMov@APlayerPawn@@AEAAXM@Z) referenced in function "public: virtual void __cdecl APlayerPawn::SetupPlayerInputComponent(class UInputComponent *)" (?SetupPlayerInputComponent@APlayerPawn@@UEAAXPEAVUInputComponent@@@Z)
+[2022.01.29-13.09.12:778][500]CompilerResultsLog: Error:   PlayerPawn.gen.cpp.obj : error LNK2001: unresolved external symbol "private: void __cdecl APlayerPawn::StrafeMov(float)" (?StrafeMov@APlayerPawn@@AEAAXM@Z)
+[2022.01.29-13.09.12:778][500]CompilerResultsLog: Error:   PlayerPawn.cpp.obj : error LNK2019: unresolved external symbol "private: void __cdecl APlayerPawn::YawRot(float)" (?YawRot@APlayerPawn@@AEAAXM@Z) referenced in function "public: virtual void __cdecl APlayerPawn::SetupPlayerInputComponent(class UInputComponent *)" (?SetupPlayerInputComponent@APlayerPawn@@UEAAXPEAVUInputComponent@@@Z)
+[2022.01.29-13.09.12:778][500]CompilerResultsLog: Error:   PlayerPawn.gen.cpp.obj : error LNK2001: unresolved external symbol "private: void __cdecl APlayerPawn::YawRot(float)" (?YawRot@APlayerPawn@@AEAAXM@Z)
+[2022.01.29-13.09.12:778][500]CompilerResultsLog: Error:   PlayerPawn.cpp.obj : error LNK2019: unresolved external symbol "private: void __cdecl APlayerPawn::OnBeginFire(void)" (?OnBeginFire@APlayerPawn@@AEAAXXZ) referenced in function "public: virtual void __cdecl APlayerPawn::SetupPlayerInputComponent(class UInputComponent *)" (?SetupPlayerInputComponent@APlayerPawn@@UEAAXPEAVUInputComponent@@@Z)
+[2022.01.29-13.09.12:778][500]CompilerResultsLog: Error:   PlayerPawn.gen.cpp.obj : error LNK2001: unresolved external symbol "private: void __cdecl APlayerPawn::OnBeginFire(void)" (?OnBeginFire@APlayerPawn@@AEAAXXZ)
+[2022.01.29-13.09.12:778][500]CompilerResultsLog: Error:   PlayerPawn.cpp.obj : error LNK2019: unresolved external symbol "private: void __cdecl APlayerPawn::OnEndFire(void)" (?OnEndFire@APlayerPawn@@AEAAXXZ) referenced in function "public: virtual void __cdecl APlayerPawn::SetupPlayerInputComponent(class UInputComponent *)" (?SetupPlayerInputComponent@APlayerPawn@@UEAAXPEAVUInputComponent@@@Z)
+[2022.01.29-13.09.12:778][500]CompilerResultsLog: Error:   PlayerPawn.gen.cpp.obj : error LNK2001: unresolved external symbol "private: void __cdecl APlayerPawn::OnEndFire(void)" (?OnEndFire@APlayerPawn@@AEAAXXZ)
+[2022.01.29-13.09.12:779][500]CompilerResultsLog: Error:   D:\Games\AssignmentGameDev\Binaries\Win64\UE4Editor-AssignmentGameDev-9300.dll : fatal error LNK1120: 6 unresolved externals
+[2022.01.29-13.09.12:779][500]LogMainFrame: MainFrame: Module compiling took 8.376 seconds
+[2022.01.29-13.09.12:779][500]Warning: HotReload failed, recompile failed
+[2022.01.29-13.09.27:803][288]LogSlate: Window 'Message Log' being destroyed
+[2022.01.29-13.09.27:809][288]LogSlate: Window 'Message Log' being destroyed
+[2022.01.29-13.10.00:415][554]Candidate modules for hot reload:
+[2022.01.29-13.10.00:415][554]  AssignmentGameDev
+[2022.01.29-13.10.00:415][554]Launching UnrealBuildTool... [D:/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=AssignmentGameDev,679 AssignmentGameDevEditor Win64 Development -Project="D:/Games/AssignmentGameDev/AssignmentGameDev.uproject" "D:/Games/AssignmentGameDev/AssignmentGameDev.uproject"  -IgnoreJunk]
+[2022.01.29-13.10.00:423][554]Warning: Starting HotReload took  0.0s.
+[2022.01.29-13.10.07:640][369]CompilerResultsLog: New page: Compilation - 29 Jan 2022, 5:10:07 pm
+[2022.01.29-13.10.07:640][369]CompilerResultsLog: Parsing headers for AssignmentGameDevEditor
+[2022.01.29-13.10.07:640][369]CompilerResultsLog:   Running UnrealHeaderTool "D:\Games\AssignmentGameDev\AssignmentGameDev.uproject" "D:\Games\AssignmentGameDev\Intermediate\Build\Win64\AssignmentGameDevEditor\Development\AssignmentGameDevEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Pavel\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.01.29-13.10.07:640][369]CompilerResultsLog: Reflection code generated for AssignmentGameDevEditor in 4.5506092 seconds
+[2022.01.29-13.10.07:640][369]CompilerResultsLog: Building AssignmentGameDevEditor...
+[2022.01.29-13.10.07:640][369]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.01.29-13.10.07:640][369]CompilerResultsLog: Building 6 actions with 6 processes...
+[2022.01.29-13.10.07:640][369]CompilerResultsLog:   [1/6] PlayerPawn.cpp
+[2022.01.29-13.10.07:640][369]CompilerResultsLog:   [2/6] AssignmentGameDev.init.gen.cpp
+[2022.01.29-13.10.07:640][369]CompilerResultsLog:   [3/6] PlayerPawn.gen.cpp
+[2022.01.29-13.10.07:640][369]CompilerResultsLog:   [4/6] UE4Editor-AssignmentGameDev-0679.lib
+[2022.01.29-13.10.07:640][369]CompilerResultsLog:      Creating library D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-0679.lib and object D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-0679.exp
+[2022.01.29-13.10.07:640][369]CompilerResultsLog:   [5/6] UE4Editor-AssignmentGameDev-0679.dll
+[2022.01.29-13.10.07:640][369]CompilerResultsLog:      Creating library D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-0679.suppressed.lib and object D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-0679.suppressed.exp
+[2022.01.29-13.10.07:640][369]CompilerResultsLog:   [6/6] AssignmentGameDevEditor.target
+[2022.01.29-13.10.07:640][369]CompilerResultsLog: Total time in Parallel executor: 1.92 seconds
+[2022.01.29-13.10.07:640][369]CompilerResultsLog: Total execution time: 7.15 seconds
+[2022.01.29-13.10.07:640][369]LogMainFrame: MainFrame: Module compiling took 7.227 seconds
+[2022.01.29-13.10.07:652][369]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0097 seconds. Added 3604 classes and 861 folders.
+[2022.01.29-13.10.07:652][369]Display: HotReload took  7.2s.
+[2022.01.29-13.10.15:777][306]Candidate modules for hot reload:
+[2022.01.29-13.10.15:777][306]  AssignmentGameDev
+[2022.01.29-13.10.15:777][306]Launching UnrealBuildTool... [D:/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=AssignmentGameDev,4613 AssignmentGameDevEditor Win64 Development -Project="D:/Games/AssignmentGameDev/AssignmentGameDev.uproject" "D:/Games/AssignmentGameDev/AssignmentGameDev.uproject"  -IgnoreJunk]
+[2022.01.29-13.10.15:785][306]Warning: Starting HotReload took  0.0s.
+[2022.01.29-13.10.17:582][472]CompilerResultsLog: New page: Compilation - 29 Jan 2022, 5:10:17 pm
+[2022.01.29-13.10.17:582][472]CompilerResultsLog: Building AssignmentGameDevEditor...
+[2022.01.29-13.10.17:582][472]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.01.29-13.10.17:582][472]CompilerResultsLog: Building 3 actions with 6 processes...
+[2022.01.29-13.10.17:582][472]CompilerResultsLog:   [1/3] UE4Editor-AssignmentGameDev-4613.lib
+[2022.01.29-13.10.17:582][472]CompilerResultsLog:      Creating library D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-4613.lib and object D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-4613.exp
+[2022.01.29-13.10.17:582][472]CompilerResultsLog:   [2/3] UE4Editor-AssignmentGameDev-4613.dll
+[2022.01.29-13.10.17:582][472]CompilerResultsLog:      Creating library D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-4613.suppressed.lib and object D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-4613.suppressed.exp
+[2022.01.29-13.10.17:582][472]CompilerResultsLog:   [3/3] AssignmentGameDevEditor.target
+[2022.01.29-13.10.17:582][472]CompilerResultsLog: Total time in Parallel executor: 1.10 seconds
+[2022.01.29-13.10.17:582][472]CompilerResultsLog: Total execution time: 1.72 seconds
+[2022.01.29-13.10.17:582][472]LogMainFrame: MainFrame: Module compiling took 1.809 seconds
+[2022.01.29-13.10.17:602][472]LogClass: Could not find existing class CustomMovementComponent in package /Script/AssignmentGameDev for HotReload, assuming new class
+[2022.01.29-13.10.17:602][472]LogClass: Could not find existing class PlayerCharacter in package /Script/AssignmentGameDev for HotReload, assuming new class
+[2022.01.29-13.10.17:607][472]LogHotReload: Re-instancing PlayerCharacter after hot-reload.
+[2022.01.29-13.10.17:612][472]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AssignmentGameDev' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2022.01.29-13.10.17:613][472]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.01.29-13.10.17:645][472]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0083 seconds. Added 3605 classes and 861 folders.
+[2022.01.29-13.10.17:645][472]Display: HotReload took  1.9s.
+[2022.01.29-13.10.39:150][381]Running D:/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/Games/AssignmentGameDev/AssignmentGameDev.uproject" -game -rocket -progress
+[2022.01.29-13.10.39:465][381]Discovering modules, targets and source code for project...
+[2022.01.29-13.10.40:971][381]Binding IntelliSense data...
+[2022.01.29-13.10.42:794][381]Binding IntelliSense data... 100%
+[2022.01.29-13.10.42:794][381]Writing project files...
+[2022.01.29-13.10.47:009][381]Writing project files... 100%
+[2022.01.29-13.10.47:117][381]Candidate modules for hot reload:
+[2022.01.29-13.10.47:117][381]  AssignmentGameDev
+[2022.01.29-13.10.47:117][381]Launching UnrealBuildTool... [D:/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=AssignmentGameDev,5911 AssignmentGameDevEditor Win64 Development -Project="D:/Games/AssignmentGameDev/AssignmentGameDev.uproject" "D:/Games/AssignmentGameDev/AssignmentGameDev.uproject"  -IgnoreJunk]
+[2022.01.29-13.10.57:365][381]CompilerResultsLog: New page: Compilation - 29 Jan 2022, 5:10:57 pm
+[2022.01.29-13.10.57:365][381]CompilerResultsLog: Creating makefile for AssignmentGameDevEditor (no existing makefile)
+[2022.01.29-13.10.57:365][381]CompilerResultsLog: Parsing headers for AssignmentGameDevEditor
+[2022.01.29-13.10.57:365][381]CompilerResultsLog:   Running UnrealHeaderTool "D:\Games\AssignmentGameDev\AssignmentGameDev.uproject" "D:\Games\AssignmentGameDev\Intermediate\Build\Win64\AssignmentGameDevEditor\Development\AssignmentGameDevEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Pavel\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.01.29-13.10.57:365][381]CompilerResultsLog: Reflection code generated for AssignmentGameDevEditor in 3.6762743 seconds
+[2022.01.29-13.10.57:365][381]CompilerResultsLog: Building AssignmentGameDevEditor...
+[2022.01.29-13.10.57:365][381]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.01.29-13.10.57:365][381]CompilerResultsLog: Building 6 actions with 6 processes...
+[2022.01.29-13.10.57:365][381]CompilerResultsLog:   [1/6] AssignmentGameDev.init.gen.cpp
+[2022.01.29-13.10.57:365][381]CompilerResultsLog:   [2/6] CustomPlayerController.cpp
+[2022.01.29-13.10.57:365][381]CompilerResultsLog:   [3/6] CustomPlayerController.gen.cpp
+[2022.01.29-13.10.57:365][381]CompilerResultsLog:   [4/6] UE4Editor-AssignmentGameDev-5911.lib
+[2022.01.29-13.10.57:365][381]CompilerResultsLog:      Creating library D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-5911.lib and object D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-5911.exp
+[2022.01.29-13.10.57:365][381]CompilerResultsLog:   [5/6] UE4Editor-AssignmentGameDev-5911.dll
+[2022.01.29-13.10.57:365][381]CompilerResultsLog:      Creating library D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-5911.suppressed.lib and object D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-5911.suppressed.exp
+[2022.01.29-13.10.57:366][381]CompilerResultsLog:   [6/6] AssignmentGameDevEditor.target
+[2022.01.29-13.10.57:366][381]CompilerResultsLog: Total time in Parallel executor: 4.81 seconds
+[2022.01.29-13.10.57:366][381]CompilerResultsLog: Total execution time: 10.17 seconds
+[2022.01.29-13.10.57:366][381]LogMainFrame: MainFrame: Module compiling took 10.251 seconds
+[2022.01.29-13.10.57:406][381]LogClass: Could not find existing class CustomPlayerController in package /Script/AssignmentGameDev for HotReload, assuming new class
+[2022.01.29-13.10.57:411][381]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AssignmentGameDev' in 0.0002 seconds. Added 5 classes and 2 folders.
+[2022.01.29-13.10.57:412][381]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.01.29-13.10.57:443][381]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0081 seconds. Added 3606 classes and 861 folders.
+[2022.01.29-13.10.57:443][381]Display: HotReload took 10.3s.
+[2022.01.29-13.10.57:443][381]Warning: HotReload operation took 10.3s.
+[2022.01.29-13.10.57:762][381]LogVSAccessor: Warning: Couldn't goto line number '1' in 'D:/Games/AssignmentGameDev/Source/AssignmentGameDev/CustomPlayerController.cpp'
+[2022.01.29-13.10.57:766][381]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.01.29-13.10.57:772][381]LogHotReload: New module detected: UE4Editor-AssignmentGameDev-5911.dll
+[2022.01.29-13.10.57:808][382]LogHotReload: Starting Hot-Reload from IDE
+[2022.01.29-13.10.57:929][382]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AssignmentGameDev' in 0.0003 seconds. Added 5 classes and 2 folders.
+[2022.01.29-13.10.57:930][382]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.01.29-13.10.57:941][382]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0087 seconds. Added 3606 classes and 861 folders.
+[2022.01.29-13.10.57:945][382]Display: HotReload took  0.1s.
+[2022.01.29-13.11.25:542][143]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2022.01.29-13.14.28:581][943]LogSlate: Window 'Project Settings' being destroyed
+[2022.01.29-13.14.28:586][943]LogSlate: Window 'Project Settings' being destroyed
+[2022.01.29-13.32.32:674][ 98]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_PlayerCharacter.BP_PlayerCharacter
+[2022.01.29-13.32.33:884][ 98]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 126 classes and 0 folders.
+[2022.01.29-13.32.35:688][ 98]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2022.01.29-13.32.37:253][219]LogSlate: Took 0.014985 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2022.01.29-13.33.08:275][602]LogSlate: Window 'BP_PlayerCharacter' being destroyed
+[2022.01.29-13.33.08:280][602]LogSlate: Window 'BP_PlayerCharacter' being destroyed
+[2022.01.29-13.33.08:328][602]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2022.01.29-13.33.08:328][602]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.29-13.33.08:734][628]Candidate modules for hot reload:
+[2022.01.29-13.33.08:734][628]  AssignmentGameDev
+[2022.01.29-13.33.08:734][628]Launching UnrealBuildTool... [D:/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=AssignmentGameDev,5071 AssignmentGameDevEditor Win64 Development -Project="D:/Games/AssignmentGameDev/AssignmentGameDev.uproject" "D:/Games/AssignmentGameDev/AssignmentGameDev.uproject"  -IgnoreJunk]
+[2022.01.29-13.33.08:742][628]Warning: Starting HotReload took  0.0s.
+[2022.01.29-13.33.20:489][989]CompilerResultsLog: New page: Compilation - 29 Jan 2022, 5:33:20 pm
+[2022.01.29-13.33.20:489][989]CompilerResultsLog: Parsing headers for AssignmentGameDevEditor
+[2022.01.29-13.33.20:489][989]CompilerResultsLog:   Running UnrealHeaderTool "D:\Games\AssignmentGameDev\AssignmentGameDev.uproject" "D:\Games\AssignmentGameDev\Intermediate\Build\Win64\AssignmentGameDevEditor\Development\AssignmentGameDevEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Pavel\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.01.29-13.33.20:489][989]CompilerResultsLog: Reflection code generated for AssignmentGameDevEditor in 4.0395779 seconds
+[2022.01.29-13.33.20:489][989]CompilerResultsLog: Building AssignmentGameDevEditor...
+[2022.01.29-13.33.20:489][989]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.01.29-13.33.20:489][989]CompilerResultsLog: Building 6 actions with 6 processes...
+[2022.01.29-13.33.20:489][989]CompilerResultsLog:   [1/6] AssignmentGameDev.init.gen.cpp
+[2022.01.29-13.33.20:489][989]CompilerResultsLog:   [2/6] PlayerCharacter.gen.cpp
+[2022.01.29-13.33.20:489][989]CompilerResultsLog:   [3/6] PlayerCharacter.cpp
+[2022.01.29-13.33.20:489][989]CompilerResultsLog:   [4/6] UE4Editor-AssignmentGameDev-5071.lib
+[2022.01.29-13.33.20:489][989]CompilerResultsLog:      Creating library D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-5071.lib and object D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-5071.exp
+[2022.01.29-13.33.20:490][989]CompilerResultsLog:   [5/6] UE4Editor-AssignmentGameDev-5071.dll
+[2022.01.29-13.33.20:490][989]CompilerResultsLog:      Creating library D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-5071.suppressed.lib and object D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-5071.suppressed.exp
+[2022.01.29-13.33.20:490][989]CompilerResultsLog:   [6/6] AssignmentGameDevEditor.target
+[2022.01.29-13.33.20:490][989]CompilerResultsLog: Total time in Parallel executor: 6.83 seconds
+[2022.01.29-13.33.20:490][989]CompilerResultsLog: Total execution time: 11.58 seconds
+[2022.01.29-13.33.20:490][989]LogMainFrame: MainFrame: Module compiling took 11.760 seconds
+[2022.01.29-13.33.20:515][989]LogClass: Could not find existing class PlayerCharacter in package /Script/AssignmentGameDev for HotReload, assuming new class
+[2022.01.29-13.33.20:535][989]LogHotReload: Re-instancing PlayerCharacter after hot-reload.
+[2022.01.29-13.33.20:627][989]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AssignmentGameDev' in 0.0003 seconds. Added 5 classes and 2 folders.
+[2022.01.29-13.33.20:629][989]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.01.29-13.33.20:709][989]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0086 seconds. Added 3606 classes and 861 folders.
+[2022.01.29-13.33.20:709][989]Display: HotReload took 12.0s.
+[2022.01.29-13.33.22:949][217]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_PlayerCharacter.BP_PlayerCharacter
+[2022.01.29-13.33.25:519][424]LogSlate: Window 'BP_PlayerCharacter' being destroyed
+[2022.01.29-13.33.25:528][424]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.01.29-13.33.25:528][424]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.29-13.33.25:578][424]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BP_PlayerCharacter.BP_PlayerCharacter
+[2022.01.29-13.35.07:869][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_PlayerCharacter" FILE="../../../../Games/AssignmentGameDev/Content/BP_PlayerCharacter.uasset" SILENT=true
+[2022.01.29-13.35.08:060][538]LogSavePackage: Moving '../../../../Games/AssignmentGameDev/Saved/BP_PlayerCharacter9E3601A54091CD4B83F8678AF878DE54.tmp' to '../../../../Games/AssignmentGameDev/Content/BP_PlayerCharacter.uasset'
+[2022.01.29-13.35.08:159][538]AssetCheck: New page: Asset Save: BP_PlayerCharacter
+[2022.01.29-13.35.08:159][538]LogContentValidation: Display: Validating Blueprint /Game/BP_PlayerCharacter.BP_PlayerCharacter
+[2022.01.29-13.35.15:255][353]LogSlate: Window 'BP_PlayerCharacter' being destroyed
+[2022.01.29-13.35.15:260][353]LogSlate: Window 'BP_PlayerCharacter' being destroyed
+[2022.01.29-13.35.15:263][353]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.01.29-13.35.15:263][353]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.01.29-13.35.19:183][730]Candidate modules for hot reload:
+[2022.01.29-13.35.19:183][730]  AssignmentGameDev
+[2022.01.29-13.35.19:183][730]Launching UnrealBuildTool... [D:/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=AssignmentGameDev,4940 AssignmentGameDevEditor Win64 Development -Project="D:/Games/AssignmentGameDev/AssignmentGameDev.uproject" "D:/Games/AssignmentGameDev/AssignmentGameDev.uproject"  -IgnoreJunk]
+[2022.01.29-13.35.19:197][730]Warning: Starting HotReload took  0.0s.
+[2022.01.29-13.35.20:974][885]CompilerResultsLog: New page: Compilation - 29 Jan 2022, 5:35:20 pm
+[2022.01.29-13.35.20:974][885]CompilerResultsLog: Building AssignmentGameDevEditor...
+[2022.01.29-13.35.20:974][885]CompilerResultsLog: Using Visual Studio 2019 14.28.29335 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.01.29-13.35.20:974][885]CompilerResultsLog: Building 3 actions with 6 processes...
+[2022.01.29-13.35.20:974][885]CompilerResultsLog:   [1/3] UE4Editor-AssignmentGameDev-4940.lib
+[2022.01.29-13.35.20:974][885]CompilerResultsLog:      Creating library D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-4940.lib and object D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-4940.exp
+[2022.01.29-13.35.20:974][885]CompilerResultsLog:   [2/3] UE4Editor-AssignmentGameDev-4940.dll
+[2022.01.29-13.35.20:974][885]CompilerResultsLog:      Creating library D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-4940.suppressed.lib and object D:\Games\AssignmentGameDev\Intermediate\Build\Win64\UE4Editor\Development\AssignmentGameDev\UE4Editor-AssignmentGameDev-4940.suppressed.exp
+[2022.01.29-13.35.20:974][885]CompilerResultsLog:   [3/3] AssignmentGameDevEditor.target
+[2022.01.29-13.35.20:974][885]CompilerResultsLog: Total time in Parallel executor: 1.05 seconds
+[2022.01.29-13.35.20:975][885]CompilerResultsLog: Total execution time: 1.70 seconds
+[2022.01.29-13.35.20:975][885]LogMainFrame: MainFrame: Module compiling took 1.794 seconds
+[2022.01.29-13.35.21:029][885]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2022.01.29-13.35.21:029][885]LogWindows: Windows GetLastError: Операция успешно завершена. (0)
