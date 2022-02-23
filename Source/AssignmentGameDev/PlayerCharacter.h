@@ -51,7 +51,12 @@ private:
 	UPROPERTY(EditAnywhere)
 		UCameraComponent* Camera;
 	UPROPERTY(EditAnywhere)
-		int PlayerHP = 50;
+		float PlayerHP = 100;
+	UPROPERTY(EditAnywhere)
+		float PlayerFireDamage = 50;
+	UPROPERTY(EditAnywhere)
+		USoundBase* FireSound;
+
 
 	
 };

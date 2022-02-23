@@ -2,6 +2,7 @@
 
 
 #include "PlayerCharacter.h"
+#include "Kismet/GameplayStatics.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 
@@ -77,11 +78,25 @@ void APlayerCharacter::OnBeginFire()
 	FVector EndPoint = CameraLoc + CameraRot.Vector() * CastRange;
 
 	FHitResult HitRes;
+	UGameplayStatics::PlaySoundAtLocation(
+		GetWorld(),
+		FireSound,
+		GetActorLocation(),
+		1.0f,
+		1.0f,
+		0.0f);
+
 
 	bool bHit = GetWorld()->LineTraceSingleByChannel(HitRes, CameraLoc, EndPoint, ECC_Visibility);
 	if (bHit)
 	{
-		HitRes.GetActor()->Destroy();
+		UGameplayStatics::ApplyDamage(
+			HitRes.GetActor(), //actor that will be damaged
+			PlayerFireDamage, //the base damage to apply
+			pController, //controller that caused the damage
+			this, //Actor that actually caused the damage
+			UDamageType::StaticClass() //class that describes the damage that was done
+		);
 	}
 }
 
