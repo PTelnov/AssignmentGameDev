@@ -19,12 +19,12 @@ public:
 protected:
 	virtual void BeginPlay() override;
 private:
-	UPROPERTY()
-		TArray<AActor*> Waypoints;
-	UFUNCTION()
-		AActor* ChooseWaypoint();
-	UFUNCTION()
-		void RandomPatrol();
+	/*UPROPERTY()
+		TArray<AActor*> Waypoints;*/
+	/*UFUNCTION()
+		AActor* ChooseWaypoint();*/
+	/*UFUNCTION()
+		void RandomPatrol();*/
 	UPROPERTY(EditAnywhere)
 		UBehaviorTree* BehTree;
 	UFUNCTION()

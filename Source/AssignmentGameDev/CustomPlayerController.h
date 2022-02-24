@@ -27,6 +27,7 @@ public:
 	virtual void CallStrafe(float Value);
 	virtual void CallFire();
 	virtual void CallJump();
+	virtual void CallThrow();
 
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<UUserWidget> HPHUDClass;
@@ -34,8 +35,7 @@ public:
 		UUserWidget* HPCount;
 	UFUNCTION(BlueprintPure)
 		int GetHP();
-	UFUNCTION(BlueprintPure)
-		int GetYourAssBackHere();
+
 
 
 	APlayerCharacter* MyCharacter;

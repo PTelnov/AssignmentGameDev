@@ -5,6 +5,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
+#include "Components/SceneCaptureComponent2D.h"
 
 // Sets default values
 APlayerCharacter::APlayerCharacter()
@@ -18,6 +19,17 @@ APlayerCharacter::APlayerCharacter()
 	SpringArm->TargetArmLength = 400.0f;
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
 	Camera->SetupAttachment(SpringArm, USpringArmComponent::SocketName);
+
+	MapArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("MapArm"));
+	MapArm->SetupAttachment(RootComponent);
+
+	MapCamera = CreateDefaultSubobject<USceneCaptureComponent2D>(TEXT("Map Camera"));
+	MapCamera->SetupAttachment(MapArm, USpringArmComponent::SocketName);
+
+	GrenadeSpawn = CreateDefaultSubobject<USceneComponent>(TEXT("Grenade Spawn"));
+	GrenadeSpawn->SetupAttachment(RootComponent);
+	
+
 	
 	
 
@@ -68,6 +80,18 @@ int APlayerCharacter::GetHP()
 	return PlayerHP;
 }
 
+float APlayerCharacter::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
+{
+	
+	PlayerHP -= DamageAmount;
+	if (PlayerHP <= 0)
+	{
+		
+	}
+	return DamageAmount;
+	
+}
+
 void APlayerCharacter::OnBeginFire()
 {
 	AController* pController = GetController();
@@ -100,7 +124,17 @@ void APlayerCharacter::OnBeginFire()
 	}
 }
 
-void APlayerCharacter::OnEndFire()
+void APlayerCharacter::Throw()
 {
+	if (GrenadeClass) { //checks teabag projectile has been set in the editor
+		FVector SpawnLocation = GrenadeSpawn->GetComponentLocation();
+		FRotator SpawnRotation = GrenadeSpawn->GetComponentRotation();
+		AGrenade* TempGrenade = GetWorld()->SpawnActor<AGrenade>(GrenadeClass, SpawnLocation, SpawnRotation);
+	}
+
+	
 }
+
+
+
 

@@ -28,6 +28,7 @@ void ACustomPlayerController::SetupInputComponent() {
 	InputComponent->BindAxis("Turn", this, &ACustomPlayerController::CallTurn);
     InputComponent->BindAction("Fire", IE_Pressed, this, &ACustomPlayerController::CallFire);
 	InputComponent->BindAction("Jump", IE_Pressed, this, &ACustomPlayerController::CallJump);
+	InputComponent->BindAction("Throw", IE_Pressed, this, &ACustomPlayerController::CallThrow);
 }
 
 
@@ -57,12 +58,16 @@ void ACustomPlayerController::CallJump()
 	MyCharacter->Jump1();
 }
 
+void ACustomPlayerController::CallThrow()
+{
+	MyCharacter->Throw();
+}
+
+
+
 int ACustomPlayerController::GetHP()
 {
 	return MyCharacter->GetHP();
 }
 
-int ACustomPlayerController::GetYourAssBackHere()
-{
-	return 0;
-}
+

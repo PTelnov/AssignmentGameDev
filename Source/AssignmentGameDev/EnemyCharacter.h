@@ -29,6 +29,7 @@ public:
 private:
 	UPROPERTY(EditAnywhere)
 		float EnemyHP = 100;
+
 		virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent,
 		AController* EventInstigator, AActor* DamageCauser) override;
 

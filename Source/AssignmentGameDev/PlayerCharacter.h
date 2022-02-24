@@ -4,10 +4,12 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Grenade.h"
 #include "PlayerCharacter.generated.h"
 
 class USpringArmComponent;
 class UCameraComponent;
+class USceneCaptureComponent2D;
 
 UCLASS()
 class ASSIGNMENTGAMEDEV_API APlayerCharacter : public ACharacter
@@ -37,13 +39,16 @@ public:
 	UFUNCTION()
 		void Turn(float Value);
 	UFUNCTION()
-		void OnBeginFire();
-	UFUNCTION()
-		void OnEndFire();
+		void OnBeginFire();	
 	UFUNCTION()
 		void Jump1();
 	UFUNCTION()
+		void Throw();
+	UFUNCTION()
 		int GetHP();
+	UFUNCTION()
+	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent,
+		AController* EventInstigator, AActor* DamageCauser) override;
 
 private:
 	UPROPERTY(EditAnywhere)
@@ -51,11 +56,23 @@ private:
 	UPROPERTY(EditAnywhere)
 		UCameraComponent* Camera;
 	UPROPERTY(EditAnywhere)
+		USpringArmComponent* MapArm;
+	UPROPERTY(EditAnywhere)
+		USceneCaptureComponent2D* MapCamera;
+	UPROPERTY(EditAnywhere)
 		float PlayerHP = 100;
 	UPROPERTY(EditAnywhere)
 		float PlayerFireDamage = 50;
 	UPROPERTY(EditAnywhere)
 		USoundBase* FireSound;
+	UPROPERTY(EditAnywhere)
+		USceneComponent* GrenadeSpawn;
+	UPROPERTY(EditAnywhere)
+		TSubclassOf<AGrenade> GrenadeClass;
+
+	
+
+
 
 
 	

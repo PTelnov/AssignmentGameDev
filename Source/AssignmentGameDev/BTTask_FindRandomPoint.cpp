@@ -4,6 +4,7 @@
 #include "NavigationSystem.h"
 #include "AIController.h"
 #include "BehaviorTree/BlackboardComponent.h"
+
 #include "BTTask_FindRandomPoint.h"
 
 EBTNodeResult::Type UBTTask_FindRandomPoint::ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory)
