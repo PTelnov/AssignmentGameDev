@@ -34,8 +34,7 @@ public:
 		UUserWidget* HPCount;
 	UFUNCTION(BlueprintPure)
 		int GetHP();
-	UFUNCTION(BlueprintPure)
-		int GetYourAssBackHere();
+	
 
 
 	APlayerCharacter* MyCharacter;
