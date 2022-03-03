@@ -14,4 +14,17 @@ class ASSIGNMENTGAMEDEV_API AAssignmentGameDevGameModeBase : public AGameModeBas
 {
 	GENERATED_BODY()
 	
+private:
+	FTimerHandle EndGameTimer;
+	UPROPERTY(EditAnywhere)
+		float GameDuration = 5.0f;
+	UFUNCTION()
+		void TimeUp();
+	UFUNCTION()
+		void StartGame();
+	UFUNCTION()
+		void GameOver(bool win);
+	UFUNCTION()
+		void BeginPlay();
+
 };

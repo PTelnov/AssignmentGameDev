@@ -126,10 +126,11 @@ void APlayerCharacter::OnBeginFire()
 
 void APlayerCharacter::Throw()
 {
-	if (GrenadeClass) { //checks teabag projectile has been set in the editor
+	if (GrenadeClass) { 
 		FVector SpawnLocation = GrenadeSpawn->GetComponentLocation();
 		FRotator SpawnRotation = GrenadeSpawn->GetComponentRotation();
 		AGrenade* TempGrenade = GetWorld()->SpawnActor<AGrenade>(GrenadeClass, SpawnLocation, SpawnRotation);
+		TempGrenade->SetOwner(this);
 	}
 
 	

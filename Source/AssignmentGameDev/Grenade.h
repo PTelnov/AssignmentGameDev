@@ -8,6 +8,7 @@
 
 class UProjectileMovementComponent;
 class UStaticMeshComponent;
+class URadialForceComponent;
 
 UCLASS()
 class ASSIGNMENTGAMEDEV_API AGrenade : public AActor
@@ -30,9 +31,19 @@ private:
 	UPROPERTY(EditAnywhere)
 		float MovSpeed = 1000.0f;
 	UPROPERTY(EditAnywhere)
+		float GrenadeDamage = 50.0f;
+	UPROPERTY(EditAnywhere)
+		float ExplosionRad = 100.0f;
+	UPROPERTY(EditAnywhere)
 		UStaticMeshComponent* GrenadeMesh;
 	UPROPERTY(EditAnywhere)
 		UProjectileMovementComponent* ProjMove;
+	UPROPERTY(EditAnywhere)
+		URadialForceComponent* RadForce;
+	UFUNCTION()
+		void OnHit(AActor* SelfActor, AActor* OtherActor, FVector NormalImpulse,
+			const FHitResult& Hit);
+
 
 
 
