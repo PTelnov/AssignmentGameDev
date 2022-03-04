@@ -5,14 +5,15 @@
 #include "Kismet/GameplayStatics.h"
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
+#include "AssignmentGameDevGameModeBase.h"
 #include "Components/SceneCaptureComponent2D.h"
 
 // Sets default values
 APlayerCharacter::APlayerCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
-	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));
+	PrimaryActorTick.bCanEverTick = false;
+	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SpringArm"));// Creates a spring arm
 	
 	SpringArm->SetupAttachment(RootComponent);
 	SpringArm->SetRelativeRotation(FRotator(-45.f, 0.f, 0.f));
@@ -39,6 +40,7 @@ APlayerCharacter::APlayerCharacter()
 void APlayerCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+	GameModeRef = Cast<AAssignmentGameDevGameModeBase>(GetWorld()->GetAuthGameMode()); // Gets current game mode
 	
 }
 
@@ -50,12 +52,12 @@ void APlayerCharacter::Tick(float DeltaTime)
 }
 
 
-void APlayerCharacter::MovementForward(float Value)
+void APlayerCharacter::MovementForward(float Value) // Moves player forward/backwards
 {
 	AddMovementInput(GetActorForwardVector(), Value);
 }
 
-void APlayerCharacter::PitchRot(float Value)
+void APlayerCharacter::PitchRot(float Value) 
 {
 	AddControllerPitchInput(Value);
 }
@@ -80,13 +82,13 @@ int APlayerCharacter::GetHP()
 	return PlayerHP;
 }
 
-float APlayerCharacter::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)
+float APlayerCharacter::TakeDamage(float DamageAmount, FDamageEvent const& DamageEvent, AController* EventInstigator, AActor* DamageCauser)// Decreases player health and if player health is less than 0, opens a lose screen
 {
 	
 	PlayerHP -= DamageAmount;
 	if (PlayerHP <= 0)
 	{
-		
+		GameModeRef->GameOver(false);
 	}
 	return DamageAmount;
 	
@@ -94,15 +96,15 @@ float APlayerCharacter::TakeDamage(float DamageAmount, FDamageEvent const& Damag
 
 void APlayerCharacter::OnBeginFire()
 {
-	AController* pController = GetController();
+	AController* pController = GetController(); // Gets player controller
 	FVector CameraLoc;
 	FRotator CameraRot;
-	pController->GetPlayerViewPoint(CameraLoc, CameraRot);
-	float CastRange = 10000.0f;
-	FVector EndPoint = CameraLoc + CameraRot.Vector() * CastRange;
+	pController->GetPlayerViewPoint(CameraLoc, CameraRot); // Gets player Location and Rotation
+	float CastRange = 10000.0f; // Length of the ray
+	FVector EndPoint = CameraLoc + CameraRot.Vector() * CastRange; // Calculates end point of the ray
 
 	FHitResult HitRes;
-	UGameplayStatics::PlaySoundAtLocation(
+	UGameplayStatics::PlaySoundAtLocation( // Plays the fire sound at the player's location
 		GetWorld(),
 		FireSound,
 		GetActorLocation(),
@@ -111,26 +113,30 @@ void APlayerCharacter::OnBeginFire()
 		0.0f);
 
 
-	bool bHit = GetWorld()->LineTraceSingleByChannel(HitRes, CameraLoc, EndPoint, ECC_Visibility);
-	if (bHit)
+	FCollisionQueryParams AdditionalParam;
+	AdditionalParam.AddIgnoredActor(this); // Player character will be ignored in Ray cast. Needed to avoid player character being shoot by himself.
+
+
+	bool bHit = GetWorld()->LineTraceSingleByChannel(HitRes, CameraLoc, EndPoint, ECC_Visibility, AdditionalParam); // Raycast from player
+	if (bHit) // if Hit was successful, apply damage to other actor
 	{
 		UGameplayStatics::ApplyDamage(
 			HitRes.GetActor(), //actor that will be damaged
-			PlayerFireDamage, //the base damage to apply
+			PlayerFireDamage, //the player damage to apply
 			pController, //controller that caused the damage
-			this, //Actor that actually caused the damage
-			UDamageType::StaticClass() //class that describes the damage that was done
+			this, //Actor that caused the damage
+			UDamageType::StaticClass() 
 		);
 	}
 }
 
-void APlayerCharacter::Throw()
+void APlayerCharacter::Throw() // Spawns a grenade in front of the player
 {
 	if (GrenadeClass) { 
 		FVector SpawnLocation = GrenadeSpawn->GetComponentLocation();
 		FRotator SpawnRotation = GrenadeSpawn->GetComponentRotation();
-		AGrenade* TempGrenade = GetWorld()->SpawnActor<AGrenade>(GrenadeClass, SpawnLocation, SpawnRotation);
-		TempGrenade->SetOwner(this);
+		AGrenade* TempGrenade = GetWorld()->SpawnActor<AGrenade>(GrenadeClass, SpawnLocation, SpawnRotation); // Spawns a grenade
+		TempGrenade->SetOwner(this); // Sets player as owner of the grenade
 	}
 
 	

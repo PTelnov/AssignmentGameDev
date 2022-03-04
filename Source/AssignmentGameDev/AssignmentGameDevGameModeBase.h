@@ -14,16 +14,18 @@ class ASSIGNMENTGAMEDEV_API AAssignmentGameDevGameModeBase : public AGameModeBas
 {
 	GENERATED_BODY()
 	
+public:
+	UFUNCTION()
+		void GameOver(bool win);
 private:
 	FTimerHandle EndGameTimer;
 	UPROPERTY(EditAnywhere)
-		float GameDuration = 5.0f;
+		float GameDuration = 40.0f; // Duration of the game, if the time runs out the player will lose. Value can be changed in blueprint
 	UFUNCTION()
-		void TimeUp();
+		void TimeUp(); // The function is called when time runs out.
 	UFUNCTION()
 		void StartGame();
-	UFUNCTION()
-		void GameOver(bool win);
+	
 	UFUNCTION()
 		void BeginPlay();
 

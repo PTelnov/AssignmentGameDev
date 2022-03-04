@@ -13,5 +13,5 @@ UCLASS()
 class ASSIGNMENTGAMEDEV_API AStartGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+		// A game mode created to overwrite main game mode in locations: Start, EndLevelWin, EndLevelLose
 };

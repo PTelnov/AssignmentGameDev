@@ -28,11 +28,11 @@ public:
 
 private:
 	UPROPERTY(EditAnywhere)
-		UStaticMeshComponent* TeleportMesh;
+		UStaticMeshComponent* TeleportMesh; // Static mesh
 	UPROPERTY(EditAnywhere)
-		UBoxComponent* BoxComp;
+		UBoxComponent* BoxComp; // Collision box
 	UPROPERTY(EditAnywhere)
-		FName Map = "GameMap";
+		FName Map = "GameMap"; // Name of the map to open
 	UFUNCTION()
 		void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 	

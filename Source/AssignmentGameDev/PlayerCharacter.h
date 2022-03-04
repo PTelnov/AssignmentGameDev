@@ -10,6 +10,7 @@
 class USpringArmComponent;
 class UCameraComponent;
 class USceneCaptureComponent2D;
+class AAssignmentGameDevGameModeBase;
 
 UCLASS()
 class ASSIGNMENTGAMEDEV_API APlayerCharacter : public ACharacter
@@ -39,13 +40,13 @@ public:
 	UFUNCTION()
 		void Turn(float Value);
 	UFUNCTION()
-		void OnBeginFire();	
+		void OnBeginFire();	//Fire a gun 
 	UFUNCTION()
-		void Jump1();
+		void Jump1();// Jump function
 	UFUNCTION()
-		void Throw();
+		void Throw(); // Throw a grenade
 	UFUNCTION()
-		int GetHP();
+		int GetHP();// Gets player HP 
 	UFUNCTION()
 	virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent,
 		AController* EventInstigator, AActor* DamageCauser) override;
@@ -60,15 +61,17 @@ private:
 	UPROPERTY(EditAnywhere)
 		USceneCaptureComponent2D* MapCamera;
 	UPROPERTY(EditAnywhere)
-		float PlayerHP = 100;
+		float PlayerHP = 100; // Player HP, can be changed in the blueprint
 	UPROPERTY(EditAnywhere)
-		float PlayerFireDamage = 50;
+		float PlayerFireDamage = 50; // Damage of the player, can be changed in the blueprint
 	UPROPERTY(EditAnywhere)
-		USoundBase* FireSound;
+		USoundBase* FireSound; // Pointer to the fire sound
 	UPROPERTY(EditAnywhere)
 		USceneComponent* GrenadeSpawn;
 	UPROPERTY(EditAnywhere)
 		TSubclassOf<AGrenade> GrenadeClass;
+	UPROPERTY()
+		AAssignmentGameDevGameModeBase* GameModeRef; // Reference to the game mode
 
 	
 

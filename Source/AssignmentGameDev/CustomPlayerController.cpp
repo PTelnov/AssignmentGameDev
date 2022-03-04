@@ -7,20 +7,20 @@
 
 void ACustomPlayerController::BeginPlay() {
 	Super::BeginPlay();
-	Character = Cast<ACharacter>(GetPawn());
-	MyCharacter = Cast<APlayerCharacter>(Character);
-	HPCount = CreateWidget(this, HPHUDClass);
+	Character = Cast<ACharacter>(GetPawn()); // Downcasting a pawn to the character
+	MyCharacter = Cast<APlayerCharacter>(Character); // Downcasting a character to the Custom character
+	HPCount = CreateWidget(this, HPHUDClass); // Creates a widget 
 
 
 	if (HPCount != nullptr) {
-		HPCount->AddToViewport();
+		HPCount->AddToViewport(); // Adds a widget to the viewport
 	}
 
 
 }
 
 
-void ACustomPlayerController::SetupInputComponent() {
+void ACustomPlayerController::SetupInputComponent() { // Binds keys to the functions. Functions will be calling methods of the PlayerCharacter class
 	Super::SetupInputComponent();
 	InputComponent->BindAxis("Move Forwards", this, &ACustomPlayerController::CallForwards);
 	InputComponent->BindAxis("Look up", this, &ACustomPlayerController::CallPitch);
@@ -65,7 +65,7 @@ void ACustomPlayerController::CallThrow()
 
 
 
-int ACustomPlayerController::GetHP()
+int ACustomPlayerController::GetHP() // Gets current HP of the PlayerCharacter
 {
 	return MyCharacter->GetHP();
 }

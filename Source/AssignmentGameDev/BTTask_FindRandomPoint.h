@@ -16,5 +16,8 @@ class ASSIGNMENTGAMEDEV_API UBTTask_FindRandomPoint : public UBTTask_BlackboardB
 
 protected:
 	virtual EBTNodeResult::Type ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory) override;
+private:
+	UPROPERTY(EditAnywhere)
+		float RandRadius = 2000.0f; // Radius in which AI will be looking for random point
 	
 };

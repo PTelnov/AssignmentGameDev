@@ -17,7 +17,7 @@ class ASSIGNMENTGAMEDEV_API UBTService_BB_Distance : public UBTService_Blackboar
 protected:
 	void TickNode(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory, float DeltaSeconds) override;
 	
-private:
+public:
 	UPROPERTY(EditAnywhere)
-		float shootingDist = 100.0f;
+		float shootingDist = 500.0f; // Distance at which AI can shoot player.
 };

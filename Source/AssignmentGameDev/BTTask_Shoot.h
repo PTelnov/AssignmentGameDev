@@ -18,8 +18,8 @@ protected:
 	virtual EBTNodeResult::Type ExecuteTask(UBehaviorTreeComponent& OwnerComp, uint8* NodeMemory) override;
 private:
 	UPROPERTY(EditAnywhere)
-		USoundBase* FireSound;
+		USoundBase* FireSound; // Fire sound of AI's gun, can be assigned in the Behavioral Tree
 	UPROPERTY(EditAnywhere)
-		float EnemyFireDamage = 10.0f;
+		float EnemyFireDamage = 15.0f; //Damage of the AI, can be changed in the Behavioral Tree
 	
 };

@@ -6,19 +6,27 @@
 
 
 
-void AAssignmentGameDevGameModeBase::TimeUp()
+void AAssignmentGameDevGameModeBase::TimeUp() // The function, which is called when Timer ends
 {
 	GameOver(false);
 }
 
-void AAssignmentGameDevGameModeBase::StartGame()
+void AAssignmentGameDevGameModeBase::StartGame() // At the start of the game the timer will start running
 {
 	GetWorld()->GetTimerManager().SetTimer(EndGameTimer, this, &AAssignmentGameDevGameModeBase::TimeUp, GameDuration, false);
+	
 }
 
-void AAssignmentGameDevGameModeBase::GameOver(bool win)
+void AAssignmentGameDevGameModeBase::GameOver(bool win) // Depending on the win or defeat of the player, different screen will be opened 
 {
-	UGameplayStatics::OpenLevel(GetWorld(), "EndLevel");
+	if (win == true)
+	{
+		UGameplayStatics::OpenLevel(GetWorld(), "EndLevelWin");
+	}
+	else
+	{
+		UGameplayStatics::OpenLevel(GetWorld(), "EndLevelLose");
+	}
 }
 
 void AAssignmentGameDevGameModeBase::BeginPlay()

@@ -19,16 +19,10 @@ public:
 protected:
 	virtual void BeginPlay() override;
 private:
-	/*UPROPERTY()
-		TArray<AActor*> Waypoints;*/
-	/*UFUNCTION()
-		AActor* ChooseWaypoint();*/
-	/*UFUNCTION()
-		void RandomPatrol();*/
+	
 	UPROPERTY(EditAnywhere)
-		UBehaviorTree* BehTree;
+		UBehaviorTree* BehTree; // Pointer to the Behavioral tree
 	UFUNCTION()
 		void Tick(float DeltaTime);
-	/*UFUNCTION()
-		bool isSeen(APawn* PlayerPawn);*/
+	
 };

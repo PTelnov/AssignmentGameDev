@@ -10,36 +10,14 @@ void AEnemyAIController::BeginPlay() {
 	Super::BeginPlay();
 	APawn* PlayerPawn = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
 	
-	/*UGameplayStatics::GetAllActorsOfClass(GetWorld(), ATargetPoint::StaticClass(), Waypoints);*/
-
-	if (BehTree != nullptr)
+	if (BehTree != nullptr) // Checks if Beh Tree is assigned correctly
 	{
-		RunBehaviorTree(BehTree);
+		RunBehaviorTree(BehTree); //Runs behavioral tree
 	}
 
-	/*for (AActor* Waypoint : Waypoints)
-	{
-		UE_LOG(LogTemp, Warning, TEXT("Waypoint check"));
-		if (Waypoint->ActorHasTag(TEXT("Lookout")))
-		{
-			UE_LOG(LogTemp, Warning, TEXT("Waypoint check1"));
-			GetBlackboardComponent()->SetValueAsVector(TEXT("Lookout"), Waypoint->GetActorLocation());
-		}
-	}*/
-
-	//RandomPatrol();
-
+	
 
 }
-
-//AActor* AEnemyAIController::ChooseWaypoint()
-//{
-//	int index = FMath::RandRange(0, Waypoints.Num() - 1);
-//	return Waypoints[index];
-//
-//}
-
-
 
 
 void AEnemyAIController::Tick(float DeltaTime)
@@ -54,5 +32,5 @@ void AEnemyAIController::OnMoveCompleted(FAIRequestID RequestID, const
 	FPathFollowingResult& Result)
 {
 	Super::OnMoveCompleted(RequestID, Result);
-	/*RandomPatrol();*/
+	
 }

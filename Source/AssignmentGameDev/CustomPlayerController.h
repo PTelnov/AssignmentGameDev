@@ -30,11 +30,11 @@ public:
 	virtual void CallThrow();
 
 	UPROPERTY(EditAnywhere)
-		TSubclassOf<UUserWidget> HPHUDClass;
+		TSubclassOf<UUserWidget> HPHUDClass; // A template of the hud 
 	UPROPERTY()
-		UUserWidget* HPCount;
+		UUserWidget* HPCount; // A pointer to the HUD
 	UFUNCTION(BlueprintPure)
-		int GetHP();
+		int GetHP(); // A function, which can be accessed from the HUD to display current Health
 
 
 

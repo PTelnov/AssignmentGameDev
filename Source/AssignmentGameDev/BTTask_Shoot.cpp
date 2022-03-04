@@ -16,12 +16,12 @@ EBTNodeResult::Type UBTTask_Shoot::ExecuteTask(UBehaviorTreeComponent& OwnerComp
 	AAIController* aiCont = OwnerComp.GetAIOwner();
 	FVector Loc;
 	FRotator Rot;
-	aiCont->GetPlayerViewPoint(Loc, Rot);
-	float CastRange = 10000.0f;
+	aiCont->GetPlayerViewPoint(Loc, Rot); // Gets AI view point
+	float CastRange = 10000.0f; // End point of the ray
 	FVector EndPoint = Loc + Rot.Vector() * CastRange;
 
 	FHitResult HitRes;
-	UGameplayStatics::PlaySoundAtLocation(
+	UGameplayStatics::PlaySoundAtLocation( // Plays the fire sound at AI's location
 		GetWorld(),
 		FireSound,
 		aiCont->GetPawn()->GetActorLocation(),
@@ -30,9 +30,9 @@ EBTNodeResult::Type UBTTask_Shoot::ExecuteTask(UBehaviorTreeComponent& OwnerComp
 		0.0f);
 
 
-	FCollisionQueryParams AdditionalParam;
+	FCollisionQueryParams AdditionalParam; // Added to avoid AIs shooting themselves.
 
-	AdditionalParam.AddIgnoredActor(aiCont->GetPawn());
+	AdditionalParam.AddIgnoredActor(aiCont->GetPawn()); // Added to avoid AIs shooting themselves.
 
 
 	bool bHit = GetWorld()->LineTraceSingleByChannel(HitRes, Loc, EndPoint, ECC_Visibility, AdditionalParam);
@@ -41,10 +41,10 @@ EBTNodeResult::Type UBTTask_Shoot::ExecuteTask(UBehaviorTreeComponent& OwnerComp
 
 		UGameplayStatics::ApplyDamage(
 			HitRes.GetActor(), //actor that will be damaged
-			EnemyFireDamage, //the base damage to apply
+			EnemyFireDamage, //the enemy damage to apply
 			aiCont, //controller that caused the damage
 			aiCont->GetPawn(), //Actor that actually caused the damage
-			UDamageType::StaticClass() //class that describes the damage that was done
+			UDamageType::StaticClass() 
 		);
 	}
 	return EBTNodeResult::Succeeded;

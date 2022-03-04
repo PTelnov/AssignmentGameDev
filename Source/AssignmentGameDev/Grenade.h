@@ -28,21 +28,26 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 private:
+	FTimerHandle GrenadeTimer;
 	UPROPERTY(EditAnywhere)
-		float MovSpeed = 1000.0f;
+		float grenadeSec = 2.0f;// Time before detonation 
 	UPROPERTY(EditAnywhere)
-		float GrenadeDamage = 50.0f;
+		float MovSpeed = 1000.0f; // Initial movement speed
 	UPROPERTY(EditAnywhere)
-		float ExplosionRad = 100.0f;
+		float GrenadeDamage = 50.0f; // Grenade damage
+	UPROPERTY(EditAnywhere)
+		float ExplosionRad = 100.0f; // Explosion radius, only applies to the damage.
 	UPROPERTY(EditAnywhere)
 		UStaticMeshComponent* GrenadeMesh;
 	UPROPERTY(EditAnywhere)
 		UProjectileMovementComponent* ProjMove;
 	UPROPERTY(EditAnywhere)
-		URadialForceComponent* RadForce;
+		URadialForceComponent* RadForce; 
 	UFUNCTION()
 		void OnHit(AActor* SelfActor, AActor* OtherActor, FVector NormalImpulse,
 			const FHitResult& Hit);
+	UFUNCTION()
+		void Explosion();
 
 
 

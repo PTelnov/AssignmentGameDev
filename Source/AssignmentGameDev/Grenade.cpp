@@ -12,21 +12,22 @@
 AGrenade::AGrenade()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+	PrimaryActorTick.bCanEverTick = false;
 	GrenadeMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Granade Mesh"));
 	SetRootComponent(GrenadeMesh);
 	
-	GrenadeMesh->SetSimulatePhysics(true);
-	GrenadeMesh->SetNotifyRigidBodyCollision(true);
+	GrenadeMesh->SetSimulatePhysics(true); // SImulates physics
+	GrenadeMesh->SetNotifyRigidBodyCollision(true); // Adds an ability to fire OnHit events
 
 
 	ProjMove = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("Projectile Movement"));
 	ProjMove->MaxSpeed = MovSpeed;
 	ProjMove->InitialSpeed = MovSpeed;
-	InitialLifeSpan = 10.0f;
+	InitialLifeSpan = 3.0f;
 
-	RadForce = CreateDefaultSubobject<URadialForceComponent>(TEXT("Force Component"));
+	RadForce = CreateDefaultSubobject<URadialForceComponent>(TEXT("Force Component"));// Adds a radial force component to fire impulses
 	RadForce->SetupAttachment(RootComponent);
+	
 
 }
 
@@ -35,6 +36,7 @@ void AGrenade::BeginPlay()
 {
 	Super::BeginPlay();
 	OnActorHit.AddDynamic(this, &AGrenade::OnHit);
+	GetWorld()->GetTimerManager().SetTimer(GrenadeTimer, this, &AGrenade::Explosion, grenadeSec, false);// Sets timer on the grenade, when time runs out calls Explosion() function
 	
 
 	
@@ -53,20 +55,27 @@ void AGrenade::OnHit(AActor* SelfActor, AActor* OtherActor, FVector NormalImpuls
 	{
 		return;
 	}
-	UE_LOG(LogTemp, Warning, TEXT("Called"));
-	if (OtherActor->ActorHasTag(TEXT("Enemy")))
+	
+	
+	if (OtherActor->ActorHasTag(TEXT("Barrel")) || OtherActor->ActorHasTag(TEXT("Dest"))) // Will only cause an explosion, if other actor is a barrel or a destructable object
 	{
+		
 		if (GetOwner() == nullptr)
 		{
 			return;
 		}
-		TArray<AActor*> IgnoreActors;
-		
-
-		UGameplayStatics::ApplyRadialDamage(GetWorld(), GrenadeDamage, GetActorLocation(), ExplosionRad, UDamageType::StaticClass(), IgnoreActors, this, GetOwner()->GetInstigatorController());
-		RadForce->FireImpulse();
-		Destroy();
+		Explosion();
 	}
+	
+}
+
+void AGrenade::Explosion()
+{
+	RadForce->FireImpulse(); // Fires an impulse
+	TArray<AActor*> IgnoreActors; // An array of actors, which will be ignoring radial damage
+	IgnoreActors.Add(GetOwner()); // Adds player to the ignored actors
+	UGameplayStatics::ApplyRadialDamage(GetWorld(), GrenadeDamage, GetActorLocation(), ExplosionRad, UDamageType::StaticClass(), IgnoreActors, this, GetOwner()->GetInstigatorController()); // Applies radial damage in the ExplosionRad radius
+	Destroy();
 
 }
 

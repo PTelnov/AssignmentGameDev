@@ -28,7 +28,7 @@ public:
 
 private:
 	UPROPERTY(EditAnywhere)
-		float EnemyHP = 100;
+		float EnemyHP = 100;// Enemy HP, can be changed in the blueprint
 
 		virtual float TakeDamage(float DamageAmount, struct FDamageEvent const& DamageEvent,
 		AController* EventInstigator, AActor* DamageCauser) override;
