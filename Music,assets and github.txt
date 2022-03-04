@@ -4,3 +4,6 @@ Fire sound: https://www.videvo.net/sound-effect/gun-shot-single-shot-in-pe109790
 Unreal Assets:
 Anumation Starter Pack
 FPS Weapon Bundle - AK, Grenade
+
+Github:
+https://github.com/PTelnov/AssignmentGameDev
